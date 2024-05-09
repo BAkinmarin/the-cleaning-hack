@@ -1,0 +1,26 @@
+/*Wild card selector to override default web browser styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Style body with image and parallax effect*/
+body, html {
+    background: url("../images/pexels-pixabay.webp") no-repeat center center/cover;
+    background-attachment: fixed;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+/*Style Company Logo - which will also act as Home button*/
+.logo {
+    width: 20%;
+    height: 50%;
+}
+/*Media query: Remove parallax effect from incompatible devices*/
+@media screen and (min-width: 1200px) {
+    /*Remove parallax effect*/
+    html, body {
+        background-attachment: scroll;
+    }
+}
