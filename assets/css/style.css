@@ -10,8 +10,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: rgb(29, 87, 110);
-    background-color: white;
+    color: #1d576e;
+    background-color: #ffffff;
 }
 
 /*Style header*/
@@ -21,7 +21,10 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px slategray;
+    box-shadow: 0 2px 2px #708090;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 /*Style navigation links*/
@@ -34,8 +37,8 @@ header a {
 h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: rgb(29, 87, 110);
-    font-size: 155%;
+    color: #1d576e;
+    font-size: 130%;
 }
 
 /*Style navigation list items*/
@@ -52,16 +55,44 @@ h1 {
 
 /*Style to let user's know location*/
 .active {
-    border-bottom: 1px solid rgb(29, 87, 110);
+    border-bottom: 1px solid #1d576e;
+}
+
+/*Style navbar to toggle menu*/
+nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #708090;
+    /*Hide navigation until user clicks*/
+    display: none;
+    top: 100%;
+}
+
+/*Style navigation toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+/*Hide nav-toggle checkbox*/
+#nav-toggle {
+    display: none;
+}
+
+/*Style to make toggle box larger*/
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /*Style main content to take up any surplus place and push footer down*/
 main {
     flex: 1 0 auto;
+    margin-top: 40px;
 }
 
 /*Style footer*/
 footer {
-    background-color: rgb(29, 87, 110);
-    color: white;
+    background-color: #1d576e;
+    color: #ffffff;
 }
