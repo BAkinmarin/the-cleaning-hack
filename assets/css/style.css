@@ -96,3 +96,30 @@ footer {
     background-color: #1d576e;
     color: #ffffff;
 }
+
+/*Media query: For tablets (768px and higher)*/
+@media screen and (min-width: 768px) {
+    /*Style header for large devices*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: hide;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    /*Style to fit menu items side by side*/
+    #menu {
+        display: flex;
+    }
+
+    /*Style some distance between items*/
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    /*Style to hide 'X' next to checkbox*/
+    .nav-toggle-label {
+        display: none;
+    }
+}
