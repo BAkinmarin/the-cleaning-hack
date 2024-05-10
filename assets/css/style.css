@@ -7,7 +7,7 @@
 
 /*Style body*/
 body {
-    background-color: whitesmoke;
+    background-color: white;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,6 @@ body {
 /*Style header - flexbox parent*/
 header {
     display: flex;
-    background-color: white;
     position: fixed;
     z-index: 99;
     box-shadow: 0 2px 2px slategray;
@@ -95,10 +94,17 @@ nav {
 /*Style main content to take up any surplus place and push footer down*/
 main {
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 79px;
 }
 
-/*Media query: Larger displays (768px and higher)*/
+/*Style Company Logo*/
+.logo {
+    display: flex;
+    width: 40%;
+    height: 40%;
+}
+
+/*Media query: Larger mobile displays (768px and higher)*/
 @media screen and (min-width: 768px) {
 
     /*Style header*/
