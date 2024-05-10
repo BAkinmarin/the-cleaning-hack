@@ -7,205 +7,26 @@
 
 /*Style body*/
 body {
-    background-color: white;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     color: rgb(29, 87, 110);
+    background-color: white;
 }
 
-/*Style Company name which will also act as home button*/
-#tch-name {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-/*Style header - flexbox parent*/
+/*Style header*/
 header {
-    display: flex;
-    position: fixed;
-    z-index: 99;
-    box-shadow: 0 2px 2px slategray;
-    width: 100%;
-    padding: 0 0.5rem;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-/*Style placement of company logo inside header*/
-/*.logo {
-    display: block;
-    margin: auto;
-    width: 40%;
-    height: 40%;
-}*/
-
-/*Style navigation links with flex properties inherited from parent (header)*/
-header a {
-    color: inherit;
-    text-decoration: none;
-}
-
-/*Style navigation list options*/
-#options {
-    list-style-type: none;
-    letter-spacing: 3px;
-    font-size: 100%;
-}
-
-/*Style items in navigation list options*/
-#options>li {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    font-weight: bold;
-}
-
-/*Highlight user's current position*/
-.active {
-    border-bottom: 1px solid navy;
-}
-
-/*Style navigation links*/
-nav {
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px slategray;
-    display: none;
-    top: 100%;
-}
-
-/*Navigation expand on click*/
-#nav-expand:checked~nav {
-    display: block;
-}
-
-/*Hide navigation check-box*/
-#nav-expand {
-    display: none;
-}
-
-.nav-expand-label {
-    font-size: 2rem;
+    background-color: rgb(29, 87, 110);
+    color: white;
 }
 
 /*Style main content to take up any surplus place and push footer down*/
 main {
     flex: 1 0 auto;
-    margin-top: 79px;
-    margin: 1rem;
 }
 
-/*Style Company Logo and About Us*/
-.logo-container {
-    display: block;
-    width: 100%;
-    margin: auto;
-    padding: 0;
-}
-
-.logo {
-    width: 40%;
-    height: 40%;
-    align-self: center;
-    overflow: hidden;
-    padding: 0;
-}
-
-/*Media query: Larger mobile displays (768px and higher)*/
-@media screen and (min-width: 768px) {
-
-    /*Style header*/
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding: 1rem;
-    }
-
-    /*Style navigation list items*/
-    #options {
-        display: flex;
-        letter-spacing: 2px;
-    }
-
-    /*Style list items in navigation options*/
-    #options > li {
-        padding-left: 1rem;
-        justify-content: space-around;
-        align-items: baseline;
-        font-size: 200%;
-    }
-
-    /*Style navigation check-box*/
-    .nav-expand-label {
-        display: none;
-    }
-
-    /*Style Company name*/
-    #tch-name {
-        margin: 0 0.5rem;
-        font-size: 250%;
-        padding-bottom: 1.5rem;
-    }
-
-    /*Main main element take up any surplus space to push footer down*/
-    main {
-        flex: 1 0 auto;
-        margin-top: 180px;
-    }
-
-    /*Reposition logo*/
-    /*.logo {
-        align-items: center;
-        justify-content: center;
-    }*/
-}
-
-/*Media query: Desktops (1200px and higher)*/
-@media screen and (min-width: 1200px) {
-    /*Style header and nav*/
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-left: 1rem;
-    }
-
-    /*Style navigation list items*/
-    #options {
-        display: flex;
-        letter-spacing: 3px;
-    }
-
-    /*Style list items in navigation options*/
-    #options > li {
-        padding-left: 1rem;
-        justify-content: space-around;
-        display: flex;
-        align-items: baseline;
-        font-size: 200%;
-    }
-
-    /*Style navigation check-box*/
-    .nav-expand-label {
-        display: none;
-    }
-
-    /*Style Company name*/
-    #tch-name {
-        font-size: 250%;
-        padding-bottom: 1.5rem;
-    }
-
-    /*Main main element take up any surplus space to push footer down*/
-    main {
-        flex: 1 0 auto;
-        margin-top: 79px;
-    }
-
+/*Style footer*/
+footer {
+    background-color: rgb(29, 87, 110);
+    color: white;
 }
