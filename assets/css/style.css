@@ -21,11 +21,11 @@ main {
 }
 
 /*Style Company name which will also act as home button*/
-.tch-name {
-    /*text-transform: uppercase;*/
-    letter-spacing: 1rem;
-    font-size: 280%;
-    /*line-height: 75px;*/
+#tch-name {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 250%;
+    line-height: 10px;
     margin: 0 0.5rem;
 }
 
@@ -65,7 +65,9 @@ header a {
 
 /*Style items in navigation list options*/
 #options > li {
+    margin-top: 1em;
     margin-bottom: 1em;
+    font-weight: bold;
 }
 
 /*Highlight user's current position*/
