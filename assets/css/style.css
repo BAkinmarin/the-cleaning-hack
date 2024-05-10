@@ -4,23 +4,106 @@
     margin: 0;
     box-sizing: border-box;
 }
-/*Style body with image and parallax effect*/
-body, html {
-    background: url("../images/pexels-pixabay.webp") no-repeat center center/cover;
-    background-attachment: fixed;
-    height: 100%;
-    display:flex;
+
+/*Style body*/
+body {
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
     flex-direction: column;
+    color: rgb(29, 87, 110);
 }
-/*Style Company Logo - which will also act as Home button*/
+
+/*Style main content to take up any surplus place and push footer down*/
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
+
+/*Style Company name which will also act as home button*/
+.tch-name {
+    /*text-transform: uppercase;*/
+    letter-spacing: 1rem;
+    font-size: 280%;
+    /*line-height: 75px;*/
+    margin: 0 0.5rem;
+}
+
+/*Style header*/
+header {
+    background-color: white;
+    position: fixed;
+    box-shadow: 0 2px 2px slategray;
+    width: 100%;
+    display: flex;
+    padding: 0 1rem;
+    align-items: baseline;
+    justify-content: space-between;
+    z-index: 99;
+}
+
+/*Style placement of company logo inside header*/
 .logo {
-    width: 20%;
-    height: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    height: 40%;
 }
+
+/*Style navigation links with flex properties inherited from parent (header)*/
+header a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*Style navigation list options*/
+#options {
+    list-style-type: none;
+    letter-spacing: 2px;
+    font-size: medium;
+}
+
+/*Style items in navigation list options*/
+#options > li {
+    margin-bottom: 1em;
+}
+
+/*Highlight user's current position*/
+.active {
+    border-bottom: 1px solid;
+}
+
+/*Style navigation links*/
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px slategray;
+    display: none;
+    top: 100%;
+}
+
+/*Navigation expand on click*/
+#nav-expand:checked~nav {
+    display: block;
+}
+
+/*Hide navigation check-box*/
+#nav-expand {
+    display: none;
+}
+
+.nav-expand-label {
+    font-size: 2rem;
+}
+
 /*Media query: Remove parallax effect from incompatible devices*/
 @media screen and (min-width: 1200px) {
+
     /*Remove parallax effect*/
-    html, body {
+    body {
         background-attachment: scroll;
     }
 }

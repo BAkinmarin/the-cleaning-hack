@@ -24,19 +24,23 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body>  
+<body>
     <!--Header-->
     <header>
-        <!--Company logo-->
-        <a href="index.html">
-            <img src="assets/images/tch-logo.webp" alt="Company Logo" class="logo">
-        </a>
-        <!--Collapsable navigation menu-->
-        <input type="checkbox" id="nav-menu" name="nav-menu">
-        <label for="nav-menu" class="nav-menu-label"><i class="fa-duotone fa-bars"></i></label>
+        <!--<div>-->
+            <span>
+                <img src="assets/images/tch-logo.webp" alt="Company Logo" class="logo tch-name">
+                <a href="index.html">
+                <h1 id="tch-name">The Cleaning Hack</h1>
+                </a>
+            </span>
+        <!--</div>-->
+        <!--Expandable navigation menu-->
+        <input type="checkbox" id="nav-expand" name="nav-expand">
+        <label for="nav-expand" class="nav-expand-label"><i class="fa-duotone fa-bars"></i></label>
         <!--Navigation links as list-->
         <nav>
-            <ul id="nav-menu">
+            <ul id="options">
                 <li><a href="" class="active">Home</a></li>
                 <li><a href="">Services</a></li>
                 <li><a href="">Gallery</a></li>
@@ -55,6 +59,7 @@
 
     <!--Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/b4bb9144f2.js" crossorigin="anonymous"></script>
-       
-</body> 
+
+</body>
+
 </html>
