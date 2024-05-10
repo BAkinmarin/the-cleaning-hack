@@ -49,7 +49,7 @@ header a {
 /*Style navigation list options*/
 #options {
     list-style-type: none;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-size: 100%;
 }
 
@@ -109,23 +109,25 @@ main {
 
     /*Style header*/
     nav {
-        position: relative;
         display: block;
+        position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     /*Style navigation list items*/
     #options {
         display: flex;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
     }
 
     /*Style list items in navigation options*/
-    #options>li {
+    #options > li {
         padding-left: 1rem;
-        justify-content: space-between;
+        justify-content: space-around;
+        align-items: baseline;
+        font-size: 200%;
     }
 
     /*Style navigation check-box*/
@@ -136,7 +138,8 @@ main {
     /*Style Company name*/
     #tch-name {
         margin: 0 0.5rem;
-        font-size: large;
+        font-size: 250%;
+        padding-bottom: 1.5rem;
     }
 
     /*Main main element take up any surplus space to push footer down*/
@@ -150,4 +153,49 @@ main {
         align-items: center;
         justify-content: center;
     }*/
+}
+
+/*Media query: Desktops (1200px and higher)*/
+@media screen and (min-width: 1200px) {
+    /*Style header and nav*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-left: 1rem;
+    }
+
+    /*Style navigation list items*/
+    #options {
+        display: flex;
+        letter-spacing: 3px;
+    }
+
+    /*Style list items in navigation options*/
+    #options > li {
+        padding-left: 1rem;
+        justify-content: space-around;
+        display: flex;
+        align-items: baseline;
+        font-size: 200%;
+    }
+
+    /*Style navigation check-box*/
+    .nav-expand-label {
+        display: none;
+    }
+
+    /*Style Company name*/
+    #tch-name {
+        font-size: 250%;
+        padding-bottom: 1.5rem;
+    }
+
+    /*Main main element take up any surplus space to push footer down*/
+    main {
+        flex: 1 0 auto;
+        margin-top: 79px;
+    }
+
 }
