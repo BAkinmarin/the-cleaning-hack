@@ -17,6 +17,42 @@ body {
 /*Style header*/
 header {
     color: rgb(29, 87, 110);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px slategray;
+}
+
+/*Style navigation links*/
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Style company name which will be used as home button*/
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(29, 87, 110);
+    font-size: 155%;
+}
+
+/*Style navigation list items*/
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+/*Style list items inside navigation menu*/
+#menu > li {
+    margin-bottom: 1em;
+}
+
+/*Style to let user's know location*/
+.active {
+    border-bottom: 1px solid rgb(29, 87, 110);
 }
 
 /*Style main content to take up any surplus place and push footer down*/
