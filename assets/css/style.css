@@ -122,4 +122,23 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
+    /*Style company name to be used as logo*/
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /*Push main content down to accommodate larger screens*/
+    main {
+        margin-top: 75px;
+    }
+}
+
+/*Media query: Laptops and higher (992px and higher)*/
+@media screen and (min-width: 962px) {
+    #menu a:hover {
+        border-bottom: 1px solid #708090;
+    }
 }
