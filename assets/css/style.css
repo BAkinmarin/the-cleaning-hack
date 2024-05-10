@@ -16,8 +16,7 @@ body {
 
 /*Style header*/
 header {
-    background-color: rgb(29, 87, 110);
-    color: white;
+    color: rgb(29, 87, 110);
 }
 
 /*Style main content to take up any surplus place and push footer down*/
