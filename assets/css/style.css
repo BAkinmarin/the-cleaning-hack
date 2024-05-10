@@ -14,41 +14,32 @@ body {
     color: rgb(29, 87, 110);
 }
 
-/*Style main content to take up any surplus place and push footer down*/
-main {
-    flex: 1 0 auto;
-    margin-top: 47px;
-}
-
 /*Style Company name which will also act as home button*/
 #tch-name {
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    font-size: 250%;
-    line-height: 10px;
-    margin: 0 0.5rem;
+    letter-spacing: 2px;
 }
 
-/*Style header*/
+/*Style header - flexbox parent*/
 header {
+    display: flex;
     background-color: white;
     position: fixed;
+    z-index: 99;
     box-shadow: 0 2px 2px slategray;
     width: 100%;
-    display: flex;
-    padding: 0 1rem;
-    align-items: baseline;
-    justify-content: space-between;
-    z-index: 99;
+    padding: 0 0.5rem;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 
 /*Style placement of company logo inside header*/
-.logo {
+/*.logo {
     display: block;
-    margin: 0 auto;
+    margin: auto;
     width: 40%;
     height: 40%;
-}
+}*/
 
 /*Style navigation links with flex properties inherited from parent (header)*/
 header a {
@@ -60,11 +51,11 @@ header a {
 #options {
     list-style-type: none;
     letter-spacing: 2px;
-    font-size: medium;
+    font-size: 100%;
 }
 
 /*Style items in navigation list options*/
-#options > li {
+#options>li {
     margin-top: 1em;
     margin-bottom: 1em;
     font-weight: bold;
@@ -72,7 +63,7 @@ header a {
 
 /*Highlight user's current position*/
 .active {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid navy;
 }
 
 /*Style navigation links*/
@@ -101,11 +92,56 @@ nav {
     font-size: 2rem;
 }
 
-/*Media query: Remove parallax effect from incompatible devices*/
-@media screen and (min-width: 1200px) {
+/*Style main content to take up any surplus place and push footer down*/
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
 
-    /*Remove parallax effect*/
-    body {
-        background-attachment: scroll;
+/*Media query: Larger displays (768px and higher)*/
+@media screen and (min-width: 768px) {
+
+    /*Style header*/
+    nav {
+        position: relative;
+        display: block;
+        box-shadow: none;
+        width: fit-content;
+        padding-left: 1rem;
     }
+
+    /*Style navigation list items*/
+    #options {
+        display: flex;
+        letter-spacing: 3px;
+    }
+
+    /*Style list items in navigation options*/
+    #options>li {
+        padding-left: 1rem;
+        justify-content: space-between;
+    }
+
+    /*Style navigation check-box*/
+    .nav-expand-label {
+        display: none;
+    }
+
+    /*Style Company name*/
+    #tch-name {
+        margin: 0 0.5rem;
+        font-size: large;
+    }
+
+    /*Main main element take up any surplus space to push footer down*/
+    main {
+        flex: 1 0 auto;
+        margin-top: 79px;
+    }
+
+    /*Reposition logo*/
+    /*.logo {
+        align-items: center;
+        justify-content: center;
+    }*/
 }
