@@ -99,6 +99,13 @@ main {
     list-style-type: none;
 }
 
+/*Style Font Awesome footer social icons*/
+#socials i {
+    font-size: 150%;
+    padding: 5%;
+    color: #1d576e;
+}
+
 /*Media query: For tablets (768px and higher)*/
 @media screen and (min-width: 768px) {
     /*Style header for large devices*/
