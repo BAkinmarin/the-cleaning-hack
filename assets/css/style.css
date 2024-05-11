@@ -1,3 +1,6 @@
+/*Google Fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
 /*Wild card selector to override default web browser styles*/
 * {
     padding: 0;
@@ -34,6 +37,9 @@ header a {
 
 /*Style company name which will be used as home button*/
 h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #1d576e;
