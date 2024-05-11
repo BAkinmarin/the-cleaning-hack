@@ -105,7 +105,7 @@ main {
     width: 100%;
     background: url("../images/tch-hero2.webp") no-repeat center center/cover;
     position: relative;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
 
 /*Style cover text on hero*/
@@ -134,7 +134,6 @@ main {
     border-radius: 5px;
     padding: 0;
     font-weight: 100px;
-    text-transform: inherit;
 }
 
 /*Style footer and elements*/
@@ -190,6 +189,16 @@ main {
     main {
         margin-top: 79px;
     }
+
+    /*Style hero area (image and text) to fit larger devices*/
+    #hero {
+        display: flex;
+        position: relative;
+    }
+
+    #hero-text h2 {
+        font-size: 320%;
+    }
 }
 
 /*Media query: Laptops and higher (992px and higher)*/
@@ -233,10 +242,14 @@ main {
         transition: all 0.3s ease-in-out;
     }
 
-    /*Add animation to booking button for devices with a mouse*/
-    #hero text button:hover {
-        transform: scale(1.15);
-        transition: all 0.3s ease-in-out;
+    /*Resize and animate booking button for devices with a mouse*/
+    #hero-text button {
+        font-size: 32px;
+    }
+
+    .book-button:hover {
+        transform: scale(1.25);
+        transition: all 0.5s ease-in-out;
         cursor: pointer;
     }
 }
