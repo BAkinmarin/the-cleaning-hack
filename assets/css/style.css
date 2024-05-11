@@ -10,7 +10,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #1d576e;
     background-color: #ffffff;
 }
 
@@ -93,8 +92,7 @@ main {
 
 /*Style footer*/
 footer {
-    background-color: #1d576e;
-    color: #ffffff;
+    background-color: #ffffff;
 }
 
 /*Media query: For tablets (768px and higher)*/
@@ -113,19 +111,19 @@ footer {
         display: flex;
     }
 
-    /*Style some distance between items*/
+    /*Style to add some distance between items*/
     #menu > li {
         padding-left: 1rem;
     }
 
-    /*Style to hide 'X' next to checkbox*/
+    /*Style to hide 'X' (used as pseudo hamburger icon) next to checkbox*/
     .nav-toggle-label {
         display: none;
     }
 
     /*Style company name to be used as logo*/
     #logo {
-        font-size: 200%;
+        font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
