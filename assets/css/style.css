@@ -164,6 +164,7 @@ main {
     /*Style company name to accomodate laptop display*/
     #logo {
         font-size: 350%;
+        margin: 1.5rem;
     }
 
     /*Style menu list items to fit screen*/
@@ -174,11 +175,17 @@ main {
     /*Increase legibility of navigation items*/
     #menu > li {
        font-size: 250%;
-       letter-spacing: 4px;
+       letter-spacing: 5px;
+       padding-left: 2rem;
     }
 
     /*Push main content further down on laptop devices*/
     main {
         margin-top: 145px;
+    }
+
+    /*Increase size of media icons on footer*/
+    #socials i {
+        font-size: 280%;
     }
 }
