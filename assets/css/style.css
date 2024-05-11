@@ -23,7 +23,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #708090;
+    box-shadow: 0 2px 2px #1d576e;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -49,13 +49,16 @@ h1 {
 /*Style navigation list items*/
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     list-style-type: none;
 }
 
 /*Style list items inside navigation menu*/
 #menu > li {
     margin-bottom: 1em;
+    margin-top: 1em;
+    font-weight: bold;
+    font-style: oblique;
 }
 
 /*Style to let user's know location*/
@@ -69,7 +72,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #708090;
+    box-shadow: 0 2px 2px #1d576e;
     /*Hide navigation until user clicks*/
     display: none;
     top: 100%;
@@ -140,9 +143,9 @@ main {
 
     /*Style company name to be used as logo*/
     #logo {
-        font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
+        font-weight: 850;
     }
 
     /*Push main content down to accommodate larger screens*/
@@ -154,6 +157,6 @@ main {
 /*Media query: Laptops and higher (992px and higher)*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #708090;
+        border-bottom: 1px solid #1d576e;
     }
 }
