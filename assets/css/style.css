@@ -226,4 +226,17 @@ main {
     #socials i {
         font-size: 280%;
     }
+
+    /*Add animation to socials for devices with a mouse*/
+    #socials i:hover {
+        transform: scale(1.15);
+        transition: all 0.3s ease-in-out;
+    }
+
+    /*Add animation to booking button for devices with a mouse*/
+    #hero text button:hover {
+        transform: scale(1.15);
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
 }
