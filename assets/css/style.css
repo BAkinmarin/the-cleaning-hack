@@ -87,7 +87,7 @@ nav {
 /*Style main content to take up any surplus place and push footer down*/
 main {
     flex: 1 0 auto;
-    margin-top: 40px;
+    margin-top: 47px;
 }
 
 /*Style footer and elements*/
