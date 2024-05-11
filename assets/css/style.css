@@ -16,14 +16,9 @@ body {
     /*background-color: rgb(135, 206, 235);*/
 }
 
-/*Styles for testimonials section*/
+/*Styles for testimonials section positioned in columns and rows*/
 .test-section {
     text-align: center;
-}
-
-.test-card {
-    box-shadow: 0 4px 8px 0 rgb(29, 87, 110, 0.3);
-    margin: 8px;
 }
 
 .test-column {
@@ -35,6 +30,7 @@ body {
 
 .test-image {
     width: 300px;
+    align-self: center;
 }
 
 /*Style company name which will be used as home button*/
@@ -177,6 +173,23 @@ main {
     color: #ffffff;
 }
 
+/*Media query: Style layout of testimonials for large phones (600px);*/
+@media screen and (min-width: 600px) {
+    .test-column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    /*Style image*/
+    .test-card {
+        box-shadow: 0 4px 8px 0 rgb(29, 87, 110, 0.3);
+        margin: 8px;
+        padding: 16px;
+        text-align: center;
+    }
+}
+
 /*Media query: For tablets (768px and higher)*/
 @media screen and (min-width: 768px) {
     /*Style header for large devices*/
@@ -217,7 +230,8 @@ main {
 
     /*Push main content down to accommodate larger screens*/
     main {
-        margin-top: 79px;
+        /*margin-top: 79px;*/
+        margin-top: 225px;
     }
 
     /*Style hero area (image and text) to fit larger devices*/
