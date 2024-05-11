@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: rgb(135, 206, 235);
+    /*background-color: rgb(135, 206, 235);*/
 }
 
 /*Styles for testimonials section*/
@@ -31,6 +31,10 @@ body {
     width: 100%;
     margin-bottom: 16px;
     padding: 0 8px;
+}
+
+.test-image {
+    width: 300px;
 }
 
 /*Style company name which will be used as home button*/
@@ -192,6 +196,7 @@ main {
     /*Style to add some distance between items*/
     #menu > li {
         padding-left: 1rem;
+        color: #ffffff;
     }
 
     /*Style to hide 'X' (used as pseudo hamburger icon) next to checkbox*/
@@ -201,9 +206,10 @@ main {
 
     /*Style company name to be used as logo*/
     #logo {
-        line-height: 75px;
-        margin: 0 0.5rem;
-        font-weight: 850;
+        /*line-height: 75px;*/
+        margin: 1.5rem;
+        font-weight: 400;
+        font-size: 300%;
     }
 
     /*Push main content down to accommodate larger screens*/
@@ -220,6 +226,31 @@ main {
     #hero-text h2 {
         font-size: 320%;
         /*color: #ffffff;*/
+    }
+
+    /*Increase size of media icons on footer*/
+    #socials i {
+        font-size: 280%;
+    }
+
+    /*Add animation to socials for devices with a mouse*/
+    #socials i:hover {
+        transform: scale(1.15);
+        transition: all 0.3s ease-in-out;
+    }
+
+    /*Resize and animate booking button for devices with a mouse*/
+    #hero-text button {
+        font-size: 32px;
+        letter-spacing: 1px;
+        padding: 1rem;
+    }
+
+    .book-button:hover, .contact-button:hover {
+        transform: scale(1.15);
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+        
     }
 }
 
