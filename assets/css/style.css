@@ -151,8 +151,9 @@ main {
     background-color: rgb(29, 87, 110, -7);
     border-color: rgb(29, 87, 110, 0.3);
     border-radius: 5px;
-    padding: 0;
+    padding: 2px;
     font-weight: 100px;
+    text-transform: uppercase;
 }
 
 /*Style footer and elements*/
@@ -268,7 +269,7 @@ main {
         font-size: 32px;
     }
 
-    .book-button:hover {
+    .book-button:hover, .contact-button:hover {
         transform: scale(1.25);
         transition: all 0.5s ease-in-out;
         cursor: pointer;
