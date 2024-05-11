@@ -206,10 +206,13 @@ main {
 
     /*Style company name to be used as logo*/
     #logo {
-        /*line-height: 75px;*/
+        /*line-height: 75px;
         margin: 1.5rem;
         font-weight: 400;
-        font-size: 300%;
+        font-size: 300%;*/
+        font-size: 250%;
+        line-height: 75px;
+        margin: 0 0.5rem;
     }
 
     /*Push main content down to accommodate larger screens*/
