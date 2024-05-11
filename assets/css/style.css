@@ -104,13 +104,37 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/tch-hero2.webp") no-repeat center center/cover;
+    position: relative;
+    background-attachment: fixed;
 }
 
 /*Style cover text on hero*/
-#hero-text h2, h3 {
+#hero-text h2 {
     font-family: "Poetsen One", sans-serif;
     font-weight: normal;
     color: #1d576e;
+    position: absolute;
+    flex-basis: flex-end;
+    bottom: 10px;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 150px;
+    padding-left: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*Style booking button on hero image*/
+#hero-text button {
+    font-family: "Poetsen One", sans-serif;
+    font-size: 18px;
+    color: #1d576e;
+    background-color: rgb(29, 87, 110, -7);
+    border-color: #1d576e;
+    border-radius: 5px;
+    padding: 0;
+    font-weight: 100px;
+    text-transform: inherit;
 }
 
 /*Style footer and elements*/
