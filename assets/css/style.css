@@ -115,7 +115,7 @@ main {
     color: #1d576e;
     position: absolute;
     flex-basis: flex-end;
-    bottom: 10px;
+    bottom: 30px;
     width: 100%;
     min-height: 200px;
     padding-top: 150px;
@@ -130,7 +130,7 @@ main {
     font-size: 18px;
     color: #1d576e;
     background-color: rgb(29, 87, 110, -7);
-    border-color: #1d576e;
+    border-color: rgb(29, 87, 110, .3);
     border-radius: 5px;
     padding: 0;
     font-weight: 100px;
