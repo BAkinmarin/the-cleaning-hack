@@ -121,7 +121,7 @@ main {
     nav {
         display: block;
         position: relative;
-        box-shadow: hide;
+        box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
     }
@@ -150,13 +150,35 @@ main {
 
     /*Push main content down to accommodate larger screens*/
     main {
-        margin-top: 75px;
+        margin-top: 79px;
     }
 }
 
 /*Media query: Laptops and higher (992px and higher)*/
 @media screen and (min-width: 992px) {
+    /*Style to highlight user's location on page*/
     #menu a:hover {
         border-bottom: 1px solid #1d576e;
+    }
+
+    /*Style company name to accomodate laptop display*/
+    #logo {
+        font-size: 350%;
+    }
+
+    /*Style menu list items to fit screen*/
+    #menu {
+        display:flex
+    }
+
+    /*Increase legibility of navigation items*/
+    #menu > li {
+       font-size: 250%;
+       letter-spacing: 4px;
+    }
+
+    /*Push main content further down on laptop devices*/
+    main {
+        margin-top: 145px;
     }
 }
