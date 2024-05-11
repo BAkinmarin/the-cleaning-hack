@@ -90,9 +90,13 @@ main {
     margin-top: 40px;
 }
 
-/*Style footer*/
-footer {
-    background-color: #ffffff;
+/*Style footer and elements*/
+#socials {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 /*Media query: For tablets (768px and higher)*/
