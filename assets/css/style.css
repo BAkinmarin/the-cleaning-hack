@@ -16,6 +16,17 @@ body {
     background-color: #ffffff;
 }
 
+/*Style company name which will be used as home button*/
+h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1d576e;
+    font-size: 130%;
+}
+
 /*Style header*/
 header {
     color: rgb(29, 87, 110);
@@ -33,17 +44,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-/*Style company name which will be used as home button*/
-h1 {
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #1d576e;
-    font-size: 130%;
 }
 
 /*Style navigation list items*/
@@ -104,6 +104,13 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/tch-hero2.webp") no-repeat center center/cover;
+}
+
+/*Style cover text on hero*/
+#hero-text h2, h3 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: normal;
+    color: #1d576e;
 }
 
 /*Style footer and elements*/
