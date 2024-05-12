@@ -1,5 +1,7 @@
 /*Google Fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poetsen+One&family=Roboto:wght@900&display=swap');
 
 /*Wild card selector to override default web browser styles*/
 * {
@@ -14,6 +16,9 @@ body {
     display: flex;
     flex-direction: column;
     /*background-color: rgb(135, 206, 235);*/
+    /*General styles for body text*/
+    font-family: "Fira Sans Condensed", sans-serif;
+    color: rgb(18, 56, 71);
 }
 
 /*Styles for testimonials section positioned in columns and rows*/
@@ -35,9 +40,12 @@ body {
 
 /*Style company name which will be used as home button*/
 h1 {
-    font-family: "Poetsen One", sans-serif;
+    /*font-family: "Poetsen One", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal;*/
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-style: italic;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ffffff;
@@ -72,7 +80,7 @@ header a {
 }
 
 /*Style list items inside navigation menu*/
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
     margin-top: 1em;
     font-weight: bold;
@@ -88,6 +96,7 @@ header a {
 /*Style navbar to toggle menu*/
 nav {
     position: absolute;
+    /*Added to remove transparent backgrop of collapsed nav menu items*/
     background-color: inherit;
     width: 100%;
     left: 0;
@@ -120,7 +129,9 @@ main {
 }
 
 /*Styles for testimonials section positioned in columns and rows*/
-.test-section {
+.test-section h2,
+p {
+    color: rgb(18, 56, 71);
     text-align: center;
 }
 
@@ -132,7 +143,8 @@ main {
 }
 
 .test-image {
-    width: 300px;
+    width: 344px;
+    /*Amended to fit card container*/
     align-self: center;
 }
 
@@ -153,8 +165,11 @@ main {
 
 /*Style cover text on hero*/
 #hero-text h2 {
-    font-family: "Poetsen One", sans-serif;
-    font-weight: normal;
+    /*font-family: "Poetsen One", sans-serif;
+    font-weight: normal;*/
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     color: rgb(18, 56, 71);
     position: absolute;
     flex-basis: flex-end;
@@ -169,7 +184,9 @@ main {
 
 /*Style booking button on hero image*/
 #hero-text button {
-    font-family: "Poetsen One", sans-serif;
+    /*font-family: "Poetsen One", sans-serif;*/
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 700;
     font-size: 18px;
     color: rgb(18, 56, 71);
     background-color: rgb(29, 87, 110, -7);
@@ -216,6 +233,7 @@ main {
 
 /*Media query: For tablets (768px and higher)*/
 @media screen and (min-width: 768px) {
+
     /*Style header for large devices*/
     nav {
         display: block;
@@ -231,7 +249,7 @@ main {
     }
 
     /*Style to add some distance between items*/
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
         color: #ffffff;
     }
@@ -287,16 +305,18 @@ main {
         padding: 1rem;
     }
 
-    .book-button:hover, .contact-button:hover {
+    .book-button:hover,
+    .contact-button:hover {
         transform: scale(1.15);
         transition: all 0.5s ease-in-out;
         cursor: pointer;
-        
+
     }
 }
 
 /*Media query: Laptops and higher (992px and higher)*/
 @media screen and (min-width: 992px) {
+
     /*Style to highlight user's location on page*/
     #menu a:hover {
         border-bottom: 1px solid #1d576e;
@@ -310,14 +330,14 @@ main {
 
     /*Style menu list items to fit screen*/
     #menu {
-        display:flex
+        display: flex
     }
 
     /*Increase legibility of navigation items*/
-    #menu > li {
-       font-size: 250%;
-       letter-spacing: 5px;
-       padding-left: 2rem;
+    #menu>li {
+        font-size: 250%;
+        letter-spacing: 5px;
+        padding-left: 2rem;
     }
 
     /*Push main content further down on laptop devices*/
@@ -341,7 +361,8 @@ main {
         font-size: 32px;
     }
 
-    .book-button:hover, .contact-button:hover {
+    .book-button:hover,
+    .contact-button:hover {
         transform: scale(1.25);
         transition: all 0.5s ease-in-out;
         cursor: pointer;
