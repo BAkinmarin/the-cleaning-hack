@@ -134,26 +134,46 @@ main {
     width: 100%;
 }
 
-/*Style text types used with content*/
-#values h2 {
-    text-transform: capitalize;
-    text-align: center;
-    font-weight: 700;
-}
-
-#values p {
-    text-align: center;
+.sub-text {
+    text-align: justify;
     padding: 5px;
-    background-color: #dfe5e7;
 }
 
 .bold {
     font-weight: 700;
 }
 
+/*Generic styles for text*/
 .backdrop {
     background-color: #1d576e;
     color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+}
+
+.col-div {
+    background-color: #dfe5e7;
+}
+
+/*Style for button on home to link to about page*/
+.about-button {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(18, 56, 71);
+    background-color: rgb(29, 87, 110, -7);
+    border-color: rgb(29, 87, 110, 0.3);
+    border-radius: 5px;
+    font-weight: 100px;
+    text-transform: uppercase;
+}
+
+/*Div style for about us section on home*/
+.generic-div {
+    text-align: center;
+    padding: 5px;
 }
 
 /*Style for gallery section*/
@@ -348,19 +368,20 @@ p {
         transition: all 0.3s ease-in-out;
     }
 
-    /*Resize and animate booking button for devices with a mouse*/
-    #hero-text button {
+    /*Resize and animate booking, contact and learn more buttons for devices with a mouse*/
+    #hero-text button, 
+    .about-button {
         font-size: 32px;
         letter-spacing: 1px;
         padding: 1rem;
     }
 
     .book-button:hover,
-    .contact-button:hover {
+    .contact-button:hover,
+    .about-button:hover {
         transform: scale(1.15);
         transition: all 0.5s ease-in-out;
         cursor: pointer;
-
     }
 
     /*Style about section display on larger devices*/
