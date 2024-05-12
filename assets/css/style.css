@@ -374,4 +374,10 @@ p {
         transition: all 0.5s ease-in-out;
         cursor: pointer;
     }
+
+    /*Styles for gallery*/
+    #gallery {
+        column-count: 3;
+        width: fit-content;
+    }
 }
