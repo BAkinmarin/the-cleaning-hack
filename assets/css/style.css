@@ -151,6 +151,11 @@ main {
     font-weight: 700;
 }
 
+.backdrop {
+    background-color: #1d576e;
+    color: #ffffff;
+}
+
 /*Style for gallery section*/
 #gallery-photos img {
     width: 100%;
