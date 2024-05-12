@@ -278,6 +278,11 @@ p {
     #hero-text {
         margin-left: 4rem;
     }
+
+    /*Style testimonial cards*/
+    .test-image {
+        width: 414px;
+    }
 }
 
 /*Media query: Style layout of testimonials for large phones (576px)*/
@@ -469,7 +474,10 @@ p {
         width: fit-content;
     }
 
-    /*Media query: Larger laptop screens (1200px ang higher)*/
+    /*Style testimonials layout*/
+    
+
+    /*Media query: Larger laptop screens (1200px and higher)*/
     @media screen and (min-width: 1200px) {
         /*Increase font for larger screens*/
         #logo {
