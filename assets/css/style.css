@@ -21,23 +21,6 @@ body {
     color: rgb(18, 56, 71);
 }
 
-/*Styles for testimonials section positioned in columns and rows*/
-/*.test-section {
-    text-align: center;
-}
-
-.test-column {
-    float: left;
-    width: 100%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-}
-
-.test-image {
-    width: 300px;
-    align-self: center;
-}*/
-
 /*Style company name which will be used as home button*/
 h1 {
     /*font-family: "Poetsen One", sans-serif;
@@ -129,10 +112,21 @@ main {
     margin-top: 40px; /*Reduced to reflect smaller header*/
 }
 
+/*Style for gallery section*/
+#gallery-photos img {
+    width: 100%;
+    line-height: 1em;
+    border-radius: 50%;
+}
+
+#gallery-photos {
+    padding: 10px;
+}
+
 /*Styles for testimonials section positioned in columns and rows*/
 .test-section h2,
 p {
-    color: rgb(18, 56, 71);
+    /*color: rgb(18, 56, 71);*/
     text-align: center;
 }
 
