@@ -220,9 +220,9 @@ p {
 
 /*Style  hero section*/
 #hero {
-    height: 600px;
+    height: 400px;
     width: 100%;
-    background: url("../images/tch-hero2.webp") no-repeat center center/cover;
+    background: url("../images/tch-hero-2.webp") no-repeat center center/cover;
     position: relative;
     /*background-attachment: fixed;*/
 }
@@ -234,10 +234,11 @@ p {
     font-family: "Fira Sans Condensed", sans-serif;
     font-weight: 700;
     font-style: normal;
+    /*color: #ffffff;*/
     color: rgb(18, 56, 71);
     position: absolute;
     flex-basis: flex-end;
-    bottom: 40px;
+    /*bottom: 40px;*/
     width: 100%;
     min-height: 200px;
     padding-top: 150px;
@@ -252,7 +253,8 @@ p {
     font-family: "Fira Sans Condensed", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    color: rgb(18, 56, 71);
+    /*color: #ffffff;*/
+    color: rgb(18, 56, 71)
     background-color: rgb(29, 87, 110, -7);
     border-color: rgb(29, 87, 110, 0.3);
     border-radius: 5px;
@@ -382,6 +384,7 @@ p {
         transform: scale(1.15);
         transition: all 0.5s ease-in-out;
         cursor: pointer;
+        opacity: 0.5;
     }
 
     /*Style about section display on larger devices*/
