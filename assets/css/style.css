@@ -17,7 +17,7 @@ body {
 }
 
 /*Styles for testimonials section positioned in columns and rows*/
-.test-section {
+/*.test-section {
     text-align: center;
 }
 
@@ -31,7 +31,7 @@ body {
 .test-image {
     width: 300px;
     align-self: center;
-}
+}*/
 
 /*Style company name which will be used as home button*/
 h1 {
@@ -116,6 +116,29 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/*Styles for testimonials section positioned in columns and rows*/
+.test-section {
+    text-align: center;
+}
+
+.test-column {
+    float: left;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.test-image {
+    width: 300px;
+    align-self: center;
+}
+
+.test-row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /*Style  hero section*/
