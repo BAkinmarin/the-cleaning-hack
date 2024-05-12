@@ -55,7 +55,7 @@ h1 {
 /*Style header*/
 header {
     color: #ffffff;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -90,7 +90,7 @@ header a {
 
 /*Style to let user's know location*/
 .active {
-    border-bottom: 1px solid #1d576e;
+    border-bottom: 1px solid #ffffff;
 }
 
 /*Style navbar to toggle menu*/
@@ -200,7 +200,7 @@ p {
 /*Style footer and elements*/
 #socials {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -240,7 +240,7 @@ p {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        padding-right: 0.5rem;
     }
 
     /*Style to fit menu items side by side*/
@@ -250,8 +250,9 @@ p {
 
     /*Style to add some distance between items*/
     #menu>li {
-        padding-left: 1rem;
+        padding-left: 0.5rem;
         color: #ffffff;
+        margin-right: 3px;
     }
 
     /*Style to hide 'X' (used as pseudo hamburger icon) next to checkbox*/
@@ -265,15 +266,15 @@ p {
         margin: 1.5rem;
         font-weight: 400;
         font-size: 300%;*/
-        font-size: 250%;
-        line-height: 75px;
+        /*font-size: 250%;*/
+        /*line-height: 75px;*/
         margin: 0 0.5rem;
     }
 
     /*Push main content down to accommodate larger screens*/
     main {
-        /*margin-top: 79px;*/
-        margin-top: 225px;
+        margin-top: 60px;
+        /*margin-top: 225px;*/
     }
 
     /*Style hero area (image and text) to fit larger devices*/
@@ -289,7 +290,7 @@ p {
 
     /*Increase size of media icons on footer*/
     #socials i {
-        font-size: 280%;
+        font-size: 150%;
     }
 
     /*Add animation to socials for devices with a mouse*/
@@ -319,7 +320,7 @@ p {
 
     /*Style to highlight user's location on page*/
     #menu a:hover {
-        border-bottom: 1px solid #1d576e;
+        border-bottom: 1px solid #ffffff;
     }
 
     /*Style company name to accomodate laptop display*/
