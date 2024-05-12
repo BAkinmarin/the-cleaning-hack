@@ -19,6 +19,7 @@ body {
     /*General styles for body text*/
     font-family: "Fira Sans Condensed", sans-serif;
     color: rgb(18, 56, 71);
+    background-color: #ffffff;
 }
 
 /*Style company name which will be used as home button*/
@@ -116,11 +117,15 @@ main {
 #gallery-photos img {
     width: 100%;
     line-height: 1em;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 #gallery-photos {
-    padding: 10px;
+    line-height: 2em;
+}
+
+#gallery {
+    padding: 20px;
 }
 
 /*Styles for testimonials section positioned in columns and rows*/
@@ -141,6 +146,7 @@ p {
     width: 344px;
     /*Amended to fit card container*/
     align-self: center;
+    border-radius: 50%;
 }
 
 .test-row::after {
@@ -223,6 +229,11 @@ p {
         margin: 8px;
         padding: 16px;
         text-align: center;
+    }
+
+    /*Styles for gallery*/
+    #gallery {
+        column-count: 2;
     }
 }
 
