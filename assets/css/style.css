@@ -228,21 +228,20 @@ p {
 }
 
 /*Style cover text on hero*/
-#hero-text h2 {
+#hero-text {
     /*font-family: "Poetsen One", sans-serif;
     font-weight: normal;*/
-    font-family: "Fira Sans Condensed", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    /*color: #ffffff;*/
+    background-color: rgb(255 255 255 / 34%);
+    color: #ffffff;
     color: rgb(18, 56, 71);
+    border-style: double;
     position: absolute;
-    flex-basis: flex-end;
-    /*bottom: 40px;*/
-    width: 100%;
-    min-height: 200px;
-    padding-top: 150px;
+    bottom: 100px;
+    width: 70%;
+    min-height: 150px;
+    padding-top: 40px;
     padding-left: 10px;
+    margin-left: 3rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -250,18 +249,11 @@ p {
 /*Style booking button on hero image*/
 #hero-text button {
     /*font-family: "Poetsen One", sans-serif;*/
-    font-family: "Fira Sans Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    /*color: #ffffff;*/
-    color: rgb(18, 56, 71)
-    /*REVIEW SECTION*/
-    background-color: rgb(29, 87, 110, -7);
-    border-color: rgb(29, 87, 110, 0.3);
-    border-radius: 5px;
+    /*color: rgb(18, 56, 71);*/
+    border-color: rgb(29 87 110);
+    /*border-radius: 5px;*/
+    border-style: groove;
     padding: 2px;
-    font-weight: 100px;
-    text-transform: uppercase;
 }
 
 /*Style footer and elements*/
@@ -300,6 +292,11 @@ p {
     /*Styles for gallery*/
     #gallery {
         column-count: 2;
+    }
+
+    /*Style hero call to action*/
+    #hero-text {
+        margin-left: 6rem;
     }
 }
 
@@ -355,7 +352,7 @@ p {
         position: relative;
     }
 
-    #hero-text h2 {
+    #hero-text {
         font-size: 320%;
         /*color: #ffffff;*/
     }
@@ -404,9 +401,17 @@ p {
 
     /*Style company name to accomodate laptop display*/
     #logo {
-        font-size: 350%;
+        font-size: 250%;
         margin: 1.5rem;
     }
+
+    /*Style hero image to cover more of the screen on a bigger screen*/
+    #hero {
+        height: 100vh;
+    }
+
+    /*Style call to action to suit laptop screens*/
+
 
     /*Style menu list items to fit screen*/
     #menu {
@@ -452,5 +457,14 @@ p {
     #gallery {
         column-count: 3;
         width: fit-content;
+    }
+
+    /*Media query: Larger laptop screens (1200px ang higher)*/
+    @media screen and (min-width: 1200px) {
+        /*Increase font for larger screens*/
+        #logo {
+                font-size: 350%;
+                margin: 1.5rem;
+            }
     }
 }
