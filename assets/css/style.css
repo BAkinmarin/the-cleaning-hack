@@ -475,7 +475,24 @@ p {
     }
 
     /*Style testimonials layout*/
-    
+    #testimonials {
+        column-count: 3;
+        width: fit-content;
+        padding-left: 200px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    /*Resize testimonials image*/   
+    #testimonials img {
+        width: 50vh;
+    }
+
+    /*Add animation on hover of testimonials*/
+    #testimonials img:hover {
+        cursor: pointer;
+        transform: scale(1.10);
+    }
 
     /*Media query: Larger laptop screens (1200px and higher)*/
     @media screen and (min-width: 1200px) {
