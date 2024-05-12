@@ -241,7 +241,7 @@ p {
     min-height: 150px;
     padding-top: 40px;
     padding-left: 10px;
-    margin-left: 3rem;
+    margin-left: 3.5rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -273,7 +273,14 @@ p {
     color: #ffffff;
 }
 
-/*Media query: Style layout of testimonials for large phones (576px);*/
+/*Media query: Styles for slightly large phones (430px)*/
+@media screen and (min-width: 430px) {
+    #hero-text {
+        margin-left: 4rem;
+    }
+}
+
+/*Media query: Style layout of testimonials for large phones (576px)*/
 @media screen and (min-width: 576px) {
     .test-column {
         width: 100%;
@@ -296,7 +303,7 @@ p {
 
     /*Style hero call to action*/
     #hero-text {
-        margin-left: 6rem;
+        margin-left: 6.5rem;
     }
 }
 
@@ -353,7 +360,8 @@ p {
     }
 
     #hero-text {
-        font-size: 320%;
+        font-size: 200%;
+        margin-left: 8.5rem;
         /*color: #ffffff;*/
     }
 
@@ -371,9 +379,11 @@ p {
     /*Resize and animate booking, contact and learn more buttons for devices with a mouse*/
     #hero-text button, 
     .about-button {
-        font-size: 32px;
+        font-size: 20px;
         letter-spacing: 1px;
-        padding: 1rem;
+        padding: 4px;
+        text-transform: uppercase;
+        font-weight: 700;
     }
 
     .book-button:hover,
