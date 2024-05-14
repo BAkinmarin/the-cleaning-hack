@@ -232,7 +232,6 @@ main {
 /*Style cover text on hero*/
 #hero-text {
     background-color: rgb(255 255 255 / 34%);
-    color: #ffffff;
     color: rgb(18, 56, 71);
     border-style: double;
     position: absolute;
@@ -243,6 +242,11 @@ main {
     margin-left: 10%;
     text-align: center;
     text-transform: uppercase;
+}
+
+/*Style company slogan underneath hero-text*/
+#hero-text h4 {
+    font-style: italic;
 }
 
 /*Remove purple line between links*/
@@ -347,7 +351,7 @@ main {
     .contact-button, 
     .about-button,
     .enquire-button {
-        font-size: 20px;
+        font-size: 24px;
         letter-spacing: 1px;
         padding: 4px;
         text-transform: uppercase;
