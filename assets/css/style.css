@@ -19,7 +19,7 @@ body {
 }
 
 /*Generic styles for body headings and paragraphs text*/
-/*Style headings for values, vision and mission*/
+/*Style headings for values and mission*/
 .generic-div h2,
 .wrapper h2 {
     background-color: rgb(18, 56, 71);
@@ -42,7 +42,7 @@ body {
 #intro h2,
 #services h2,
 #values h2,
-#vision h2 {
+#mission h2 {
     background-color: rgb(18, 56, 71);
     color: #ffffff;
     text-align: center;
