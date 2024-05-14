@@ -26,7 +26,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ffffff;
-    font-size: 130%;
+    font-size: 150%;
 }
 
 /*Style header*/
@@ -142,13 +142,19 @@ main {
 
 .bold {
     font-weight: 700;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
+/*Individual style for about us div*/
 .col-div {
     background-color: #dfe5e7;
+    padding: 2px;
 }
 
-/*Style for button on home to link to about page*/
+/*Style for buttons on home page*/
+.book-button,
+.contact-button,
 .about-button {
     font-family: "Fira Sans Condensed", sans-serif;
     font-weight: 700;
@@ -160,6 +166,7 @@ main {
     font-weight: 100px;
     text-transform: uppercase;
 }
+
 
 /*Div style for about us section on home*/
 .generic-div {
@@ -200,20 +207,17 @@ main {
     border-style: double;
     position: absolute;
     bottom: 100px;
-    width: 70%;
+    width: 80%;
     min-height: 150px;
     padding-top: 40px;
-    padding-left: 10px;
-    margin-left: 3.5rem;
+    margin-left: 10%;
     text-align: center;
     text-transform: uppercase;
 }
 
-/*Style booking button on hero image*/
-#hero-text button {
-    border-color: rgb(29 87 110);
-    border-style: groove;
-    padding: 2px;
+/*Remove purple line between links*/
+#hero-text a {
+    text-decoration: none;
 }
 
 /*Style footer and elements*/
@@ -309,7 +313,8 @@ main {
     }
 
     /*Resize and animate booking, contact and learn more buttons for devices with a mouse*/
-    #hero-text button, 
+    .book-button,
+    .contact-button, 
     .about-button {
         font-size: 20px;
         letter-spacing: 1px;
@@ -390,7 +395,8 @@ main {
     }
 
     .book-button:hover,
-    .contact-button:hover {
+    .contact-button:hover,
+    .about-button:hover {
         transform: scale(1.25);
         transition: all 0.5s ease-in-out;
         cursor: pointer;
