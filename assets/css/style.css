@@ -104,10 +104,20 @@ main {
     margin-top: 40px;
 }
 
-/*Styles for about section*/
+/*Styles for About section*/
 /*Container styles*/
 .wrapper {
     padding: 30px 30px 30px;
+}
+
+/*Generic styles for body text*/
+.wrapper h2 {
+    background-color: #1d576e;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
 }
 
 /*Style columns to load using flexbox*/
@@ -134,16 +144,6 @@ main {
     font-weight: 700;
 }
 
-/*Generic styles for body text*/
-.backdrop {
-    background-color: #1d576e;
-    color: #ffffff;
-    text-align: center;
-    text-transform: capitalize;
-    text-align: center;
-    font-weight: 700;
-}
-
 .col-div {
     background-color: #dfe5e7;
 }
@@ -167,46 +167,21 @@ main {
     padding: 5px;
 }
 
-/*Style for gallery section*/
-#gallery-photos img {
+/*Style for gallery and testimonials section (including photos)*/
+#gallery-photos img,
+#test-photos img {
     width: 100%;
     line-height: 1em;
     border-radius: 25%;
 }
 
-#gallery-photos {
+#gallery-photos,
+#test-photos {
     line-height: 2em;
 }
 
 #gallery {
     padding: 20px;
-}
-
-/*Styles for testimonials section positioned in columns and rows*/
-.test-section h2,
-p {
-    /*color: rgb(18, 56, 71);*/
-    text-align: center;
-}
-
-.test-column {
-    float: left;
-    width: 100%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-}
-
-.test-image {
-    width: 344px;
-    /*Amended to fit card container*/
-    align-self: center;
-    border-radius: 50%;
-}
-
-.test-row::after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 /*Style hero section*/
@@ -258,36 +233,12 @@ p {
     color: #ffffff;
 }
 
-/*Media query: Styles for slightly large phones (430px)*/
-@media screen and (min-width: 430px) {
-    #hero-text {
-        margin-left: 4rem;
-    }
-
-    /*Style testimonial cards*/
-    .test-image {
-        width: 414px;
-    }
-}
-
 /*Media query: Style layout of testimonials for large phones (576px)*/
 @media screen and (min-width: 576px) {
-    .test-column {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-    }
-
-    /*Style image*/
-    .test-card {
-        box-shadow: 0 4px 8px 0 rgb(29, 87, 110, 0.3);
-        margin: 8px;
-        padding: 16px;
-        text-align: center;
-    }
-
+    
     /*Styles for gallery*/
-    #gallery {
+    #gallery-photos,
+    #test-photos {
         column-count: 2;
     }
 
@@ -452,7 +403,7 @@ p {
     }
 
     /*Style testimonials layout*/
-    #testimonials {
+    #test-photos {
         column-count: 3;
         width: fit-content;
         padding-left: 200px;
@@ -461,12 +412,12 @@ p {
     }
 
     /*Resize testimonials image*/   
-    #testimonials img {
+    #test-photos img {
         width: 50vh;
     }
 
     /*Add animation on hover of testimonials*/
-    #testimonials img:hover {
+    #test-photos img:hover {
         cursor: pointer;
         transform: scale(1.10);
     }
