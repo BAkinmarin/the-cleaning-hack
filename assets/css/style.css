@@ -19,8 +19,30 @@ body {
 }
 
 /*Generic styles for body headings and paragraphs text*/
+/*Style headings for values, vision and mission*/
 .generic-div h2,
 .wrapper h2 {
+    background-color: rgb(18, 56, 71);
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+}
+
+/*Style about div and font awesome icons*/
+.about-div i {
+    font-size: 250%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/*Style headings on landing page*/
+#about-us h2,
+#intro h2,
+#services h2,
+#values h2,
+#vision h2 {
     background-color: rgb(18, 56, 71);
     color: #ffffff;
     text-align: center;
@@ -115,10 +137,10 @@ main {
     margin-top: 40px;
 }
 
-/*Styles for About section*/
+/*Styles for values section*/
 /*Container styles*/
 .wrapper {
-    padding: 30px 30px 30px;
+    padding: 20px 20px 20px;
 }
 
 /*Style columns to load using flexbox*/
@@ -128,8 +150,8 @@ main {
 
 .col {
     margin-bottom: 10px;
-    border-radius: 6px;
-    border-style: solid;
+    border-radius: none;
+    border-style: groove;
 }
 
 .col-50 {
@@ -156,7 +178,8 @@ main {
 /*Style for buttons on home page*/
 .book-button,
 .contact-button,
-.about-button {
+.about-button,
+.enquire-button {
     font-family: "Fira Sans Condensed", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -168,14 +191,14 @@ main {
     text-transform: uppercase;
 }
 
-/*Div style for about us section on home*/
-.generic-div {
-    text-align: justify;
-    padding: 20px;
-    margin-top: 0;
+/*Div styles for about us and intro to services section on home*/
+.about-wrapper,
+.intro-wrapper {
+    padding: 20px 20px 20px;
+    text-align: center;
 }
 
-.generic-div h2 {
+.about-div h2 {
     margin-bottom: 2px;
     background-color: rgb(18, 56, 71);
     color: #ffffff;
@@ -213,7 +236,7 @@ main {
     color: rgb(18, 56, 71);
     border-style: double;
     position: absolute;
-    bottom: 100px;
+    bottom: 130px;
     width: 80%;
     min-height: 150px;
     padding-top: 40px;
@@ -322,7 +345,8 @@ main {
     /*Resize and animate booking, contact and learn more buttons for devices with a mouse*/
     .book-button,
     .contact-button, 
-    .about-button {
+    .about-button,
+    .enquire-button {
         font-size: 20px;
         letter-spacing: 1px;
         padding: 4px;
@@ -332,7 +356,8 @@ main {
 
     .book-button:hover,
     .contact-button:hover,
-    .about-button:hover {
+    .about-button:hover,
+    .enquire-button:hover {
         transform: scale(1.15);
         transition: all 0.5s ease-in-out;
         cursor: pointer;
@@ -403,7 +428,8 @@ main {
 
     .book-button:hover,
     .contact-button:hover,
-    .about-button:hover {
+    .about-button:hover,
+    .enquire-button {
         transform: scale(1.25);
         transition: all 0.5s ease-in-out;
         cursor: pointer;
