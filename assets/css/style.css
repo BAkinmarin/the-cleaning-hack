@@ -37,12 +37,22 @@ body {
     margin-top: 5px;
 }
 
+/*Style company logo to go on values and mission page*/
+#values-div img {
+    width: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin-left: 10%;
+}
+
 /*Style headings on landing page*/
 #about-us h2,
 #intro h2,
 #services h2,
 #values h2,
-#mission h2 {
+#mission h2,
+#contact h2 {
     background-color: rgb(18, 56, 71);
     color: #ffffff;
     text-align: center;
@@ -134,7 +144,7 @@ nav {
 /*Style main content to take up any surplus place and push footer down*/
 main {
     flex: 1 0 auto;
-    margin-top: 40px;
+    margin-top: 59px;
 }
 
 /*Styles for values section*/
@@ -293,8 +303,6 @@ textarea {
     height: 180px;
 }
 
-/*Style column for labels (25% width)*/
-
 /*Style footer and elements*/
 #socials {
     text-align: center;
@@ -409,7 +417,7 @@ textarea {
         opacity: 0.5;
     }
 
-    /*Style about section columns for @ 50% width)*/
+    /*Restyle about section columns for larger*/
     .col-50 {
         width: 100%;
     }
