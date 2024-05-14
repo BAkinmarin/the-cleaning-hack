@@ -49,8 +49,8 @@
             <h2>Submit an enquiry</h2>
             <p>Please complete the form below.</p>
             <!--Input fields for basic user information-->
-            <div class="container">
-                <form action="https://formsubmit.co/bolakinmarin@icoud.com" method="POST" id="contact-form">
+            <div class="form-container">
+                <form action="" method="POST" id="contact-form">
                     <div class="row">
                         <div class="col-25">
                             <label for="full-name">Full Name</label>
@@ -75,6 +75,7 @@
                         </div>
                         <div class="col-75">
                             <select id="county" name="county">
+                                <option>Please select</option>
                                 <option value="berkshire">Berkshire</option>
                                 <option value="buckinghamshire">Buckinghamshire</option>
                                 <option value="hertfordshire">Hertfordshire</option>
@@ -85,33 +86,35 @@
                     <!--Radio buttons for home details-->
                     <div class="row">
                         <div class="col-25 radio-button">
-                            <label for="pets">Do you have any pets?</label>
+                            <p>Do you have any pets?</p>
                         </div>
                     </div>
                     <div class="col-75">
-                        <label for="pets">Yes</label>
-                        <input type="radio" name="pets" id="yes-pets" value="yes-pets" required checked>
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="pets" id="yes" value="yes" required checked>
                     </div>
                     <div class="row">
                         <div class="col-75">
-                            <label for="pets">No</label>
-                            <input type="radio" name="pets" id="no-pets" value="yes-pets" required>
+                            <label for="no">No</label>
+                            <input type="radio" name="pets" id="no" value="no" required>
                         </div>
                     </div>
 
                     <!--Option to enter message-->
                     <div class="row">
                         <div class="col-25">
-                            <label for="message">Message us</label>
+                            <label for="message">Enter Message</label>
                         </div>
                     </div>
                     <div class="col-70">
-                        <textarea id="message" name="message" placeholder="Please enter a brief description of your property"></textarea>
+                        <textarea id="message" name="message" placeholder="Please enter a brief description of your property including number of bedrooms, bathrooms, and floors."></textarea>
                     </div>
                     <div class="row">
                         <input type="submit" value="Send Message">
                     </div>
                 </form>
+                <!--Option to clear form-->
+                <input type="submit" value="Clear Form">
             </div>
         </section>
     </main>

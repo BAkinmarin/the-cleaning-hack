@@ -169,12 +169,6 @@ main {
     font-size: 1.5rem;
 }
 
-/*Individual style for about us div*/
-/*.col-div {
-    background-color: #dfe5e7;
-    padding: 2px;
-}*/
-
 /*Style for buttons on home page*/
 .book-button,
 .contact-button,
@@ -259,6 +253,42 @@ main {
 /*Remove purple line between links*/
 #hero-text a {
     text-decoration: none;
+}
+
+/*Styles for contact form user input areas*/
+input[type=text], select, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgb(18, 56, 71);
+    padding: 12px;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+/*Style labels*/
+label {
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+}
+
+/*Style the form container*/
+.form-container {
+    width: 80%;
+    margin-left: 10%;
+}
+
+/*Style send message button*/
+input[type=submit] {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+/*Set size of textarea*/
+textarea {
+    height: 180px;
 }
 
 /*Style footer and elements*/
