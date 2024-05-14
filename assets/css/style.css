@@ -154,6 +154,7 @@ main {
     border-style: groove;
 }
 
+/%
 .col-50 {
     width: 100%;
 }
@@ -279,10 +280,11 @@ label {
 
 /*Style send message button*/
 input[type=submit] {
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
     padding: 4px;
     cursor: pointer;
+    border-style: groove;
     float: left;
 }
 
@@ -290,6 +292,8 @@ input[type=submit] {
 textarea {
     height: 180px;
 }
+
+/*Style column for labels (25% width)*/
 
 /*Style footer and elements*/
 #socials {
@@ -405,7 +409,7 @@ textarea {
         opacity: 0.5;
     }
 
-    /*Style about section display on larger devices*/
+    /*Style about section columns for @ 50% width)*/
     .col-50 {
         width: 100%;
     }
