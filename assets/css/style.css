@@ -143,7 +143,7 @@ main {
     padding: 20px 20px 20px;
 }
 
-/*Style columns to load using flexbox*/
+/*Style column display using flexbox*/
 .columns {
     display: flex;
 }
@@ -170,10 +170,10 @@ main {
 }
 
 /*Individual style for about us div*/
-.col-div {
+/*.col-div {
     background-color: #dfe5e7;
     padding: 2px;
-}
+}*/
 
 /*Style for buttons on home page*/
 .book-button,
@@ -189,6 +189,7 @@ main {
     border-radius: 5px;
     font-weight: 100px;
     text-transform: uppercase;
+    padding: 6px;
 }
 
 /*Div styles for about us and intro to services section on home*/
@@ -238,10 +239,16 @@ main {
     bottom: 130px;
     width: 80%;
     min-height: 150px;
-    padding-top: 40px;
+    padding-top: 20px;
     margin-left: 10%;
     text-align: center;
     text-transform: uppercase;
+}
+
+#hero-text hr {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
 }
 
 /*Style company slogan underneath hero-text*/
