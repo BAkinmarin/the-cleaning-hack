@@ -1,6 +1,4 @@
 /*Google Fonts import*/
-/*@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poetsen+One&family=Roboto:wght@900&display=swap');
 
 /*Wild card selector to override default web browser styles*/
@@ -15,8 +13,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*background-color: rgb(135, 206, 235);*/
-    /*General styles for body text*/
     font-family: "Fira Sans Condensed", sans-serif;
     color: rgb(18, 56, 71);
     background-color: #ffffff;
@@ -24,9 +20,6 @@ body {
 
 /*Style company name which will be used as home button*/
 h1 {
-    /*font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-style: normal;*/
     font-family: "Fira Sans Condensed", sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -64,12 +57,11 @@ header a {
 }
 
 /*Style list items inside navigation menu*/
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
     margin-top: 1em;
     font-weight: bold;
     font-style: oblique;
-    /*color: #000000;*/
 }
 
 /*Style to let user's know location*/
@@ -109,8 +101,7 @@ nav {
 /*Style main content to take up any surplus place and push footer down*/
 main {
     flex: 1 0 auto;
-    /*margin-top: 47px;*/
-    margin-top: 40px; /*Reduced to reflect smaller header*/
+    margin-top: 40px;
 }
 
 /*Styles for about section*/
@@ -143,7 +134,7 @@ main {
     font-weight: 700;
 }
 
-/*Generic styles for text*/
+/*Generic styles for body text*/
 .backdrop {
     background-color: #1d576e;
     color: #ffffff;
@@ -218,19 +209,16 @@ p {
     clear: both;
 }
 
-/*Style  hero section*/
+/*Style hero section*/
 #hero {
     height: 400px;
     width: 100%;
     background: url("../images/tch-hero-2.webp") no-repeat center center/cover;
     position: relative;
-    /*background-attachment: fixed;*/
 }
 
 /*Style cover text on hero*/
 #hero-text {
-    /*font-family: "Poetsen One", sans-serif;
-    font-weight: normal;*/
     background-color: rgb(255 255 255 / 34%);
     color: #ffffff;
     color: rgb(18, 56, 71);
@@ -248,10 +236,7 @@ p {
 
 /*Style booking button on hero image*/
 #hero-text button {
-    /*font-family: "Poetsen One", sans-serif;*/
-    /*color: rgb(18, 56, 71);*/
     border-color: rgb(29 87 110);
-    /*border-radius: 5px;*/
     border-style: groove;
     padding: 2px;
 }
@@ -333,7 +318,6 @@ p {
     #menu>li {
         padding-left: 0.5rem;
         color: #ffffff;
-        /*margin-right: 3px;*/
     }
 
     /*Style to hide 'X' (used as pseudo hamburger icon) next to checkbox*/
@@ -343,19 +327,12 @@ p {
 
     /*Style company name to be used as logo*/
     #logo {
-        /*line-height: 75px;
-        /*margin: 1.5rem;*/
-        /*font-weight: 400;*/
-        /*font-size: 300%;*/
-        /*font-size: 150%;*/
-        /*line-height: 75px;*/
         margin: 0 0.5rem;
     }
 
     /*Push main content down to accommodate larger screens*/
     main {
-        margin-top: 58px; /*Reduced to reflect smaller header*/
-        /*margin-top: 225px;*/
+        margin-top: 58px;
     }
 
     /*Style hero area (image and text) to fit larger devices*/
@@ -367,7 +344,6 @@ p {
     #hero-text {
         font-size: 200%;
         margin-left: 8.5rem;
-        /*color: #ffffff;*/
     }
 
     /*Increase size of media icons on footer*/
@@ -423,6 +399,7 @@ p {
     /*Style hero image to cover more of the screen on a bigger screen*/
     #hero {
         height: 100vh;
+        background-attachment: fixed;
     }
 
     /*Style call to action to suit laptop screens*/
@@ -434,7 +411,7 @@ p {
     }
 
     /*Increase legibility of navigation items*/
-    #menu>li {
+    #menu > li {
         font-size: 250%;
         letter-spacing: 5px;
         padding-left: 2rem;
