@@ -18,6 +18,17 @@ body {
     background-color: #ffffff;
 }
 
+/*Generic styles for body headings and paragraphs text*/
+.generic-div h2,
+.wrapper h2 {
+    background-color: rgb(18, 56, 71);
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+}
+
 /*Style company name which will be used as home button*/
 h1 {
     font-family: "Fira Sans Condensed", sans-serif;
@@ -110,16 +121,6 @@ main {
     padding: 30px 30px 30px;
 }
 
-/*Generic styles for body text*/
-.wrapper h2 {
-    background-color: #1d576e;
-    color: #ffffff;
-    text-align: center;
-    text-transform: capitalize;
-    text-align: center;
-    font-weight: 700;
-}
-
 /*Style columns to load using flexbox*/
 .columns {
     display: flex;
@@ -167,11 +168,17 @@ main {
     text-transform: uppercase;
 }
 
-
 /*Div style for about us section on home*/
 .generic-div {
-    text-align: center;
-    padding: 5px;
+    text-align: justify;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.generic-div h2 {
+    margin-bottom: 2px;
+    background-color: rgb(18, 56, 71);
+    color: #ffffff;
 }
 
 /*Style for gallery and testimonials section (including photos)*/
