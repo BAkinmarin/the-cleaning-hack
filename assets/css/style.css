@@ -49,17 +49,13 @@ table {
 
 /*Style images on values and services pages*/
 #values-div img,
-#cleaning img {
+#cleaning img,
+#contact img {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /*background-attachment: fixed;*/
-}
-
-/*Change background of contact page image*/
-#contact img {
-    background-color: rgb(18, 56, 71);
 }
 
 /*Style headings on landing page*/
