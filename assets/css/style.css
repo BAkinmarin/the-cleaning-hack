@@ -164,7 +164,7 @@ main {
     border-style: groove;
 }
 
-/%
+/*Style for column display on larger screens*/
 .col-50 {
     width: 100%;
 }
