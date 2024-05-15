@@ -355,7 +355,7 @@ textarea {
     /*Styles for gallery*/
     #gallery-photos,
     #test-photos {
-        column-count: 2;
+        column-count: 1;
     }
 
     /*Style hero call to action*/
@@ -397,6 +397,15 @@ textarea {
         margin: 0 0.5rem;
     }
 
+    #logo h1 {
+        font-size: 130%;
+    }
+
+    /*Make body text larger on larger deveices*/
+    .sub-text {
+        font-size: 130%;
+    }
+
     /*Push main content down to accommodate larger screens*/
     main {
         margin-top: 58px;
@@ -409,8 +418,7 @@ textarea {
     }
 
     #hero-text {
-        font-size: 200%;
-        margin-left: 20%;
+        font-size: 130%;
     }
 
     /*Increase size of media icons on footer*/
