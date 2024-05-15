@@ -507,7 +507,7 @@ textarea {
 
     /*Style hero image to cover more of the screen on a bigger screen*/
     #hero {
-        height: 100vh;
+        height: 80vh;
         background-attachment: fixed;
     }
 
@@ -587,17 +587,12 @@ textarea {
         #logo {
                 font-size: 32px;
                 margin: 24px;
-            }
-
-        /*Push main content down to keep footer down*/
-        main {
-            margin-top: 86px;
-        }    
+            }  
 
         /*Increase size of hero cover text*/
         #hero-text {
             font-size: 40px;
-            bottom: 680px;
+            bottom: 500px;
         }
     }
 }
