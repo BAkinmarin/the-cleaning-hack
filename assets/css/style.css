@@ -54,6 +54,7 @@ table {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 400px;
 }
 
 /*Style headings on landing page*/
@@ -87,7 +88,7 @@ h1 {
 /*Style header*/
 header {
     color: #ffffff;
-    padding: 0 0.5rem;
+    padding: 0 8px;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -131,7 +132,7 @@ nav {
     background-color: inherit;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 0 16px;
     box-shadow: 0 2px 2px #1d576e;
     /*Hide navigation until user clicks*/
     display: none;
@@ -150,19 +151,21 @@ nav {
 
 /*Style to make toggle box larger*/
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 32px;
 }
 
 /*Style main content to take up any surplus place and push footer down*/
 main {
     flex: 1 0 auto;
     margin-top: 58px;
+    margin-bottom: 15px;
 }
 
 /*Styles for values section*/
 /*Container styles*/
 .wrapper {
     padding: 20px 20px 20px;
+    text-align: justify;
 }
 
 /*Style column display using flexbox*/
@@ -189,7 +192,7 @@ main {
 .bold {
     font-weight: 700;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 24px;
 }
 
 /*Style for buttons on home page*/
@@ -264,7 +267,7 @@ main {
 
 /*Style cover text on hero*/
 #hero-text {
-    background-color:  rgb(18, 56, 71);
+    background-color: rgb(18, 56, 71, .9);
     color: #ffffff;
     border-style: double;
     position: absolute;
@@ -373,7 +376,7 @@ textarea {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 0.5rem;
+        padding-right: 8px;
     }
 
     /*Style to fit menu items side by side*/
@@ -383,7 +386,7 @@ textarea {
 
     /*Style to add some distance between items*/
     #menu>li {
-        padding-left: 0.5rem;
+        padding-left: 8px;
         color: #ffffff;
     }
 
@@ -394,7 +397,7 @@ textarea {
 
     /*Style company name to be used as logo*/
     #logo {
-        margin: 0 0.5rem;
+        margin: 0 8px;
     }
 
     #logo h1 {
@@ -409,6 +412,7 @@ textarea {
     /*Push main content down to accommodate larger screens*/
     main {
         margin-top: 58px;
+        margin-bottom: 20px;
     }
 
     /*Style hero area (image and text) to fit larger devices*/
@@ -473,7 +477,7 @@ textarea {
     /*Style company name to accomodate laptop display*/
     #logo {
         font-size: 250%;
-        margin: 1.5rem;
+        margin: 24px;
     }
 
     /*Style hero image to cover more of the screen on a bigger screen*/
@@ -494,12 +498,13 @@ textarea {
     #menu > li {
         font-size: 250%;
         letter-spacing: 5px;
-        padding-left: 2rem;
+        padding-left: 32px;
     }
 
     /*Push main content further down on laptop devices*/
     main {
         margin-top: 145px;
+        margin-bottom: 20px;
     }
 
     /*Increase size of media icons on footer*/
@@ -540,7 +545,7 @@ textarea {
         width: fit-content;
         padding-left: 200px;
         margin-top: 10px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     /*Resize testimonials image*/   
@@ -558,8 +563,8 @@ textarea {
     @media screen and (min-width: 1200px) {
         /*Increase font for larger screens*/
         #logo {
-                font-size: 350%;
-                margin: 1.5rem;
+                font-size: 32px;
+                margin: 24px;
             }
     }
 }
