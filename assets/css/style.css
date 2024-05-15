@@ -416,7 +416,7 @@ textarea {
 
     /*Push main content down to accommodate larger screens*/
     main {
-        margin-top: 58px;
+        margin-top: 51px;
         margin-bottom: 20px;
     }
 
@@ -465,9 +465,29 @@ textarea {
         opacity: 0.5;
     }
 
-    /*Restyle about section columns for larger*/
+    /*Restyle about section columns and font-size for larger*/
     .col-50 {
         width: 100%;
+        font-size: 22px;
+    }
+
+    /*Increase font size for table items*/
+    table {
+        font-size: 22px;
+    }
+
+    /*Increase font size for form items*/
+    #contact {
+        font-size: 22px;
+    }
+
+    input[type=submit], input[type=reset] {
+        font-size: 22px;
+    }
+
+    textarea {
+        height: 180px;
+        font-size: 16px;
     }
 }
 
@@ -481,7 +501,7 @@ textarea {
 
     /*Style company name to accomodate laptop display*/
     #logo {
-        font-size: 250%;
+        font-size: 32px;
         margin: 24px;
     }
 
