@@ -20,8 +20,7 @@ body {
 
 /*Generic styles for body headings and paragraphs text*/
 /*Style headings for values and mission*/
-.generic-div h2,
-.wrapper h2 {
+.generic-div h2 {
     background-color: rgb(18, 56, 71);
     color: #ffffff;
     text-align: center;
@@ -514,7 +513,8 @@ textarea {
     .book-button:hover,
     .contact-button:hover,
     .about-button:hover,
-    .enquire-button {
+    .enquire-button:hover,
+    .quote-button:hover {
         transform: scale(1.25);
         transition: all 0.5s ease-in-out;
         cursor: pointer;
