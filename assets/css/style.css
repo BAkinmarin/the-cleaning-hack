@@ -581,6 +581,14 @@ textarea {
         transform: scale(1.10);
     }
 
+    /*Style images on values and services pages for larger screens using flex properties*/
+    #values-div img,
+    #cleaning img,
+    #contact img {
+    display: flex;
+    position: relative;
+    }
+
     /*Media query: Larger laptop screens (1200px and higher)*/
     @media screen and (min-width: 1200px) {
         /*Increase font for larger screens*/
@@ -592,7 +600,7 @@ textarea {
         /*Increase size of hero cover text*/
         #hero-text {
             font-size: 40px;
-            bottom: 500px;
+            bottom: 250px;
         }
     }
 }
