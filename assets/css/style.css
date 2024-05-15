@@ -200,8 +200,6 @@ main {
 }
 
 /*Style for buttons on home page*/
-.book-button,
-.contact-button,
 .about-button,
 .enquire-button {
     font-family: "Fira Sans Condensed", sans-serif;
@@ -214,6 +212,21 @@ main {
     font-weight: 100px;
     text-transform: uppercase;
     padding: 6px;
+}
+
+/*Separate styles for hero buttons*/
+.book-button,
+.contact-button {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: rgb(29, 87, 110, -7);
+    border-color: #ffffff;
+    font-weight: 100px;
+    text-transform: uppercase;
+    padding: 6px;
+    bottom: 10px;
 }
 
 /*Div styles for about us and intro to services section on home*/
@@ -256,14 +269,14 @@ main {
 
 /*Style cover text on hero*/
 #hero-text {
-    background-color: rgb(255 255 255 / 34%);
-    color: rgb(18, 56, 71);
+    background-color:  rgb(18, 56, 71);
+    color: #ffffff;
     border-style: double;
     position: absolute;
-    bottom: 130px;
+    bottom: 90px;
     width: 80%;
-    min-height: 150px;
-    padding-top: 20px;
+    min-height: 180px;
+    padding: 20px 0 20px 0;
     margin-left: 10%;
     text-align: center;
     text-transform: uppercase;
@@ -308,7 +321,7 @@ label {
 }
 
 /*Style send message button*/
-input[type=submit] {
+input[type=submit], input[type=reset] {
     font-size: 16px;
     letter-spacing: 1px;
     padding: 4px;
