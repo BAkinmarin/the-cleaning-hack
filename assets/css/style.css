@@ -37,6 +37,16 @@ body {
     margin-top: 5px;
 }
 
+/*Style services table*/
+table {
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px none rgb(18, 56, 71);
+    border-style: solid;
+}
+
 /*Style company logo to go on values and mission page*/
 #values-div img {
     width: 80%;
@@ -46,13 +56,22 @@ body {
     margin-left: 10%;
 }
 
+/*Style image on services page*/
+#cleaning img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 /*Style headings on landing page*/
 #about-us h2,
 #intro h2,
 #services h2,
 #values h2,
 #mission h2,
-#contact h2 {
+#contact h2,
+#cleaning-services h2 {
     background-color: rgb(18, 56, 71);
     color: #ffffff;
     text-align: center;
@@ -144,7 +163,7 @@ nav {
 /*Style main content to take up any surplus place and push footer down*/
 main {
     flex: 1 0 auto;
-    margin-top: 59px;
+    margin-top: 58px;
 }
 
 /*Styles for values section*/
