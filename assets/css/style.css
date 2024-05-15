@@ -286,6 +286,8 @@ main {
     width: 50%;
     text-align: center;
     margin-left: 25%;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 /*Style company slogan underneath hero-text*/
