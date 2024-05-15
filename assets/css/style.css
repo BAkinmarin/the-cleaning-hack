@@ -47,21 +47,14 @@ table {
     border-style: solid;
 }
 
-/*Style company logo to go on values and mission page*/
-#values-div img {
-    width: 80%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    margin-left: 10%;
-}
-
-/*Style image on services page*/
+/*Style images on values and services pages*/
+#values-div img,
 #cleaning img {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-size: cover;
+    /*background-attachment: fixed;*/
 }
 
 /*Style headings on landing page*/
