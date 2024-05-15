@@ -195,7 +195,8 @@ main {
 
 /*Style for buttons on home page*/
 .about-button,
-.enquire-button {
+.enquire-button,
+.quote-button {
     font-family: "Fira Sans Condensed", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -223,9 +224,10 @@ main {
     bottom: 10px;
 }
 
-/*Div styles for about us and intro to services section on home*/
+/*Div styles for about us, intro to services and services section on home and services pages*/
 .about-wrapper,
-.intro-wrapper {
+.intro-wrapper,
+.guarantee-wrapper {
     padding: 20px 20px 20px;
     text-align: center;
 }
@@ -427,7 +429,8 @@ textarea {
     .book-button,
     .contact-button, 
     .about-button,
-    .enquire-button {
+    .enquire-button,
+    .quote-button {
         font-size: 24px;
         letter-spacing: 1px;
         padding: 4px;
@@ -438,7 +441,8 @@ textarea {
     .book-button:hover,
     .contact-button:hover,
     .about-button:hover,
-    .enquire-button:hover {
+    .enquire-button:hover,
+    .quote-button:hover {
         transform: scale(1.15);
         transition: all 0.5s ease-in-out;
         cursor: pointer;
