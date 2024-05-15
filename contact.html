@@ -46,6 +46,13 @@
     <!--Main Content-->
     <main>
         <section id="contact">
+            <div id="contact-image">
+                <h1>LET'S GET THAT CLEAN!
+                    <span>
+                        <img src="assets/images/tch-satisfaction.webp" alt="The Cleaning Hack Strap Line - Let's Get That Clean">
+                    </span>
+                </h1>
+            </div>
             <h2>Get In Touch</h2>
             <!--Input fields for basic user information-->
             <div class="form-container">
@@ -81,7 +88,8 @@
                             </select>
                         </div>
                     </div>
-                    
+                    <br>
+
                     <!--Radio buttons for home details-->
                     <div class="row">
                         <div class="col-25 radio-button">
@@ -96,6 +104,23 @@
                         <div class="col-75">
                             <label for="no">No</label>
                             <input type="radio" name="pets" id="no" value="no" required>
+                        </div>
+                    </div>
+                    <br>
+                    <!--Radio buttons for parking options-->
+                    <div class="row">
+                        <div class="col-25 radio-button">
+                            <p>Are there any parking restrictions on your road?</p>
+                        </div>
+                    </div>
+                    <div class="col-75">
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="yes-restrictions" id="yes_restrictions" value="yes-restrictions" required checked>
+                    </div>
+                    <div class="row">
+                        <div class="col-75">
+                            <label for="no">No</label>
+                            <input type="radio" name="no-restrictions" id="no_restrictions" value="no-restrictions" required>
                         </div>
                     </div>
 

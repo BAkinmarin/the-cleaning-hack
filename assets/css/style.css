@@ -57,6 +57,11 @@ table {
     /*background-attachment: fixed;*/
 }
 
+/*Change background of contact page image*/
+#contact img {
+    background-color: rgb(18, 56, 71);
+}
+
 /*Style headings on landing page*/
 #about-us h2,
 #intro h2,
