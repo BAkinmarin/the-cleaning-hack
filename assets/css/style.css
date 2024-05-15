@@ -34,7 +34,7 @@ body {
 .about-div i {
     font-size: 250%;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 /*Style services table*/
@@ -44,7 +44,7 @@ table {
     text-align: center;
     border-collapse: collapse;
     border: 1px none rgb(18, 56, 71);
-    border-style: solid;
+    border-style: none;
 }
 
 /*Style images on values and services pages*/
@@ -55,11 +55,11 @@ table {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /*background-attachment: fixed;*/
 }
 
 /*Style headings on landing page*/
 #about-us h2,
+#about-snapshot h2,
 #intro h2,
 #services h2,
 #values h2,
@@ -359,7 +359,7 @@ textarea {
 
     /*Style hero call to action*/
     #hero-text {
-        margin-left: 6.5rem;
+        margin-left: 10%;
     }
 }
 
@@ -409,7 +409,7 @@ textarea {
 
     #hero-text {
         font-size: 200%;
-        margin-left: 8.5rem;
+        margin-left: 20%;
     }
 
     /*Increase size of media icons on footer*/
