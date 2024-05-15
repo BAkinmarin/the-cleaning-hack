@@ -51,10 +51,10 @@ table {
 #cleaning img,
 #contact img {
     width: 100%;
+    height: 400px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 400px;
 }
 
 /*Style headings on landing page*/
@@ -308,6 +308,11 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 
+/*Create distance between message and clear buttons*/
+input[type=reset] {
+    margin-left: 20px;
+}
+
 /*Style labels*/
 label {
     display: inline-block;
@@ -401,7 +406,7 @@ textarea {
     }
 
     #logo h1 {
-        font-size: 130%;
+        font-size: 32px;
     }
 
     /*Make body text larger on larger deveices*/
