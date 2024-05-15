@@ -427,12 +427,12 @@ textarea {
     }
 
     #hero-text {
-        font-size: 130%;
+        font-size: 24px;
     }
 
     /*Increase size of media icons on footer*/
     #socials i {
-        font-size: 150%;
+        font-size: 16px;
     }
 
     /*Add animation to socials for devices with a mouse*/
@@ -502,7 +502,7 @@ textarea {
     /*Style company name to accomodate laptop display*/
     #logo {
         font-size: 32px;
-        margin: 24px;
+        margin: 8px;
     }
 
     /*Style hero image to cover more of the screen on a bigger screen*/
@@ -510,9 +510,6 @@ textarea {
         height: 100vh;
         background-attachment: fixed;
     }
-
-    /*Style call to action to suit laptop screens*/
-
 
     /*Style menu list items to fit screen*/
     #menu {
@@ -523,17 +520,18 @@ textarea {
     #menu > li {
         letter-spacing: 5px;
         padding-left: 32px;
+        font-size: 22px;
     }
 
     /*Push main content further down on laptop devices*/
     main {
-        margin-top: 145px;
+        margin-top: 86px;
         margin-bottom: 20px;
     }
 
     /*Increase size of media icons on footer*/
     #socials i {
-        font-size: 280%;
+        font-size: 32px;
     }
 
     /*Add animation to socials for devices with a mouse*/
@@ -574,7 +572,7 @@ textarea {
 
     /*Resize testimonials image*/   
     #test-photos img {
-        width: 50vh;
+        width: 50%;
     }
 
     /*Add animation on hover of testimonials*/
@@ -590,5 +588,16 @@ textarea {
                 font-size: 32px;
                 margin: 24px;
             }
+
+        /*Push main content down to keep footer down*/
+        main {
+            margin-top: 86px;
+        }    
+
+        /*Increase size of hero cover text*/
+        #hero-text {
+            font-size: 40px;
+            bottom: 680px;
+        }
     }
 }
