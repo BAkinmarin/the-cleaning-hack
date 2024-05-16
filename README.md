@@ -9,29 +9,67 @@ This website is built for my partner's cleaning business based out of Buckingham
 ## [Repository](https://github.com/BAkinmarin/the-cleaning-hack)
 
 ##  Table of Contents
-1.  UX Link
-2.  Existing Features
-3.  Future Features
-4.  Technologies Used
-5.  Testing
-6.  Bugs
-7.  Deployment
-8.  Credits
-9.  Content
-10. Acknowledgements
+1.  [UX](#ux)
+2.  [Features](#features)
+3.  [Features Left To Implement](#features-left-to-implement)
+4.  [Technologies Used](#technologies-used)
+5.  [Testing](#testing)
+6.  [Bugs](#bugs)
+7.  [Deployment](#deployment)
+8.  [Credits](#credits)
+9.  [Content](#content)
+10. [Acknowledgements](#acknowledgements)
 
 ## UX
 
 ### Planning
 
->In the ideation stage, I spoke with a number of people in my immediate circle as I was keen to build a website which would meet a real and present need.   
+In the ideation stage, I had discussions with a number of people, in particular, my partner and sister, as I was keen to build a website which would fulfill a real need. Discussions left me with two viable options - a website for my sister to publish her stories or a website for my partners current cleaning business. 
 
-## Existing Features
+>Both options were weighed against each other
+
+### Design
+
+#### Strategy Plane
+
+#### User Stories
+
+##### User
+
+##### Business Owner
+
+#### Scope Plane
+
+#### Structure Plane
+
+##### Home Page
+
+##### About 
+
+##### Portfolio
+
+##### Contact
+
+#### Skeleton Plane
+
+##### Balsamiq Wireframe
+
+>Place wireframe here
+
+>Description here
+
+#### Surface Plane
+
+##### Color
+
+##### Typography
+
+## Features
 - Navigation Bar
     - Fully responsive navigation bar on all pages except 'About' and 'Services' pages as these link to sections on the index.html page.
     - The navigation bar is large enough to be clickable on smaller devices and provide easy transition between various pages without the need of the 'back' browser button.
 
-Add screenshot of landing page here
+>Place screenshot of landing page here
 
 - The Landing Page
     - The landing page includes a hero image with the Company slogan and two call to action buttons, 'Book Now' and 'Enquire Now'.
