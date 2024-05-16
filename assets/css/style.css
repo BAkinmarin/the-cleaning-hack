@@ -562,23 +562,15 @@ textarea {
     }
 
     /*Style testimonials layout*/
-    #test-photos {
+    #testimonials {
         column-count: 3;
         width: fit-content;
-        padding-left: 200px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-
-    /*Resize testimonials image*/   
-    #test-photos img {
-        width: 50%;
     }
 
     /*Add animation on hover of testimonials*/
     #test-photos img:hover {
         cursor: pointer;
-        transform: scale(1.10);
+        opacity: .9;
     }
 
     /*Style images on values and services pages for larger screens using flex properties*/
