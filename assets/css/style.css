@@ -253,7 +253,8 @@ main {
     line-height: 2em;
 }
 
-#gallery {
+#gallery,
+#testimonials {
     padding: 20px;
 }
 
