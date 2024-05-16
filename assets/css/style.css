@@ -96,7 +96,6 @@ header a {
 
 /*Style navigation list items*/
 #menu {
-    /*font-size: 110%;*/
     letter-spacing: 2px;
     list-style-type: none;
 }
@@ -227,11 +226,6 @@ main {
     margin-bottom: 2px;
     background-color: rgb(18, 56, 71);
     color: #ffffff;
-}
-
-/*Style for photos on about, services and contact pages*/
-#values-photo img {
-    width: 100%;
 }
 
 /*Style for gallery and testimonials section (including photos)*/
@@ -518,10 +512,14 @@ textarea {
     }
 
     /*Style images on about, services and contact pages*/
-    #values-photo {
+    #values-photo,
+    #contact-photo,
+    #cleaning-services-photo {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        height: 50vh;
+        background-color: rgb(105, 105, 105, .21);
     }
 
     /*Style menu list items to fit screen*/
