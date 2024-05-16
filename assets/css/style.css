@@ -269,6 +269,8 @@ main {
     text-transform: uppercase;
 }
 
+
+/*Style horizontal rule on hero*/
 #hero-text hr {
     width: 50%;
     text-align: center;
@@ -277,7 +279,7 @@ main {
     margin-bottom: 4px;
 }
 
-/*Style company slogan underneath hero-text*/
+/*Style company mission underneath hero-text*/
 #hero-text h4 {
     font-style: italic;
 }
