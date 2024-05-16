@@ -12,7 +12,7 @@ This website is built for my partner's cleaning business based out of Buckingham
 1.  [UX](#ux)
 2.  [Features](#features)
 3.  [Features Left To Implement](#features-left-to-implement)
-4.  [Technologies Used](#technologies-used)
+4.  [Technology Used](#technology-used)
 5.  [Testing](#testing)
 6.  [Bugs](#bugs)
 7.  [Deployment](#deployment)
@@ -93,6 +93,24 @@ In the ideation stage, I had discussions with a number of people, in particular,
 ## Features Left to Implement
 
 ## Technology used
+
+#### HTML
+>The backbone of website design and function; used to provide structure to the website.
+
+#### CSS
+>Used to style the layout of each web page.
+
+#### Font Awesome
+>Source of all the icons used in this project.
+
+#### Google Fonts
+>Used to define the fonts used in the project (with the exclusion of the company logo). Also used to compate and pair font-styles.
+
+#### Favicon.io
+>Used to generate a favicon for the existing logo.
+
+#### Convert.io and Freeconvert.com
+>Used in the conversion of files from jpeg and png to webp to aid in faster webpage loading.
 
 ## Testing
 
