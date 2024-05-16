@@ -6,7 +6,7 @@ This website is built for my partner's cleaning business based out of Buckingham
 
 >Place screen shots from Am I Responsive here
 
->Place link to live website here (git-pages)
+## The Cleaning Hack - Live Site (https://bakinmarin.github.io/the-cleaning-hack/)
 
 >Paste link to github repository here
 
