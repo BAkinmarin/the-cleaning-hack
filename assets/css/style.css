@@ -595,9 +595,11 @@ textarea {
                 margin: 24px;
             }  
 
-        /*Style position of hero cover text*/
-        #hero-text {
-            bottom: 400px;
-        }
+        /*Style images on about, services and contact pages*/
+        #values-photo,
+        #contact-photo,
+        #cleaning-services-photo {
+        height: 80vh;
+    }    
     }
 }
