@@ -569,7 +569,6 @@ textarea {
 
     /*Add animation on hover of testimonials*/
     #test-photos img:hover {
-        cursor: pointer;
         opacity: .9;
     }
 
