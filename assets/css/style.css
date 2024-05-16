@@ -594,12 +594,5 @@ textarea {
                 font-size: 32px;
                 margin: 24px;
             }  
-
-        /*Style images on about, services and contact pages*/
-        #values-photo,
-        #contact-photo,
-        #cleaning-services-photo {
-        height: 80vh;
-    }    
     }
 }
