@@ -1,6 +1,6 @@
 # The Cleaning Hack
 
-This website is built for my partner's cleaning business based out of Buckinghamshire, England.
+This is a website built for my partner who owns a cleaning business with three employees. The business is based in Buckinghamshire, England with operations extending to Berkshire, Hertfordshire and, on ocassion, Bedfordshire.
 
 ![alt text](assets/images/tch-amiresponsive-screenshot.png)
 
@@ -140,6 +140,7 @@ In the ideation stage, I had discussions with a number of people, in particular,
  ### User Testing
 
  #### User testing Challenge
+ >Four users are asked prior to visitin
 
 
 - HTML
