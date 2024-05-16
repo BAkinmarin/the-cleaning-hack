@@ -113,8 +113,25 @@ In the ideation stage, I had discussions with a number of people, in particular,
 >Used in the conversion of files from jpeg and png to webp to aid in faster webpage loading.
 
 ## Testing
+>Project testing was done manually by myself, my partner, my sister and a couple friends from the Slack community. This was necessary to determine the usability, stability and responsiveness of the website and to gauage if the website is user-friendly. 
 
-### Validator Testing
+### Testing Phase
+
+#### Links and Contact Form
+ | Test                                                      | Expectation | Outcome |
+ |-----------------------------------------------------------|-------------|---------|
+ | Navigation links lead to their intended pages             | Pass        | Pass    |
+ | Book Now button leads to external booking page, Zenbooker | Pass        | Pass    |
+ | Contact Us button leads to contact form on contact page   | Pass        | Pass    |
+ | Learn More button leads to about page                     | Pass        | Pass    |
+ | Social links on footer lead to their respective pages     | Pass        | Pass    |
+ | Booking and social links open in a new tab                | Pass        | Pass    |
+ | Get Quote button leads to contact form on contact page    | Pass        | Pass    |
+ | Send Message and Clear Form buttons on contact form work  | Pass        | Pass    |
+ | Users prevented from submitting empty form                | Pass        | Pass    |
+ 
+
+
 - HTML
     - Add Link
 
