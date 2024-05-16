@@ -2,24 +2,22 @@
 
 This website is built for my partner's cleaning business based out of Buckinghamshire, England.
 
->Enter link to live site here
+![alt text](assets/images/tch-amiresponsive-screenshot.png)
 
->Place screen shots from Am I Responsive here
+## [Live Site](https://bakinmarin.github.io/the-cleaning-hack/)
 
-## The Cleaning Hack - Live Site (https://bakinmarin.github.io/the-cleaning-hack/)
-
->Paste link to github repository here
+## [Repository](https://github.com/BAkinmarin/the-cleaning-hack)
 
 ##  Table of Contents
-1. UX Link
-2. Existing Features
-3. Future Features
-4. Technologies Used
-5. Testing
-6. Bugs
-7. Deployment
-8. Credits
-9. Content
+1.  UX Link
+2.  Existing Features
+3.  Future Features
+4.  Technologies Used
+5.  Testing
+6.  Bugs
+7.  Deployment
+8.  Credits
+9.  Content
 10. Acknowledgements
 
 ## UX
