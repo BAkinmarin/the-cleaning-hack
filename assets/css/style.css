@@ -46,17 +46,6 @@ table {
     border-style: none;
 }
 
-/*Style images on values and services pages*/
-#values-div img,
-#cleaning img,
-#contact img {
-    width: 100%;
-    height: 400px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 /*Style headings on landing page*/
 #about-us h2,
 #about-snapshot h2,
@@ -238,6 +227,11 @@ main {
     margin-bottom: 2px;
     background-color: rgb(18, 56, 71);
     color: #ffffff;
+}
+
+/*Style for photos on about, services and contact pages*/
+#values-photo img {
+    width: 100%;
 }
 
 /*Style for gallery and testimonials section (including photos)*/
@@ -512,6 +506,13 @@ textarea {
         background-attachment: fixed;
     }
 
+    /*Style images on about, services and contact pages*/
+    #values-photo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
     /*Style menu list items to fit screen*/
     #menu {
         display: flex;
@@ -571,14 +572,6 @@ textarea {
     /*Add animation on hover of testimonials*/
     #test-photos img:hover {
         opacity: .9;
-    }
-
-    /*Style images on values and services pages for larger screens using flex properties*/
-    #values-div img,
-    #cleaning img,
-    #contact img {
-    display: flex;
-    position: relative;
     }
 
     /*Media query: Larger laptop screens (1200px and higher)*/
