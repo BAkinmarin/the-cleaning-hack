@@ -30,39 +30,44 @@ In the ideation stage, I had discussions with a number of people, in particular,
 
 ### Design
 
-#### Strategy Plane
+### Strategy Plane
 
-#### User Stories
+### User Stories
 
-##### User
+### User
 
-##### Business Owner
+### Business Owner
 
-#### Scope Plane
+### Scope Plane
 
-#### Structure Plane
+### Structure Plane
 
-##### Home Page
+### Home Page
 
-##### About 
+### About 
 
-##### Portfolio
+### Portfolio
 
-##### Contact
+### Contact
 
-#### Skeleton Plane
+### Skeleton Plane
 
-##### Balsamiq Wireframe
+### Balsamiq Wireframes
+![alt text](assets/images/wireframe-landing.png)
 
->Place wireframe here
+![alt text](assets/images/wireframe-gallery.png)
+
+![alt text](assets/images/wireframe-testimonials.png)
+
+![alt text](assets/images/wireframe-contact.png)
 
 >Description here
 
-#### Surface Plane
+### Surface Plane
 
-##### Color
+### Color
 
-##### Typography
+### Typography
 
 ## Features
 - Navigation Bar
@@ -87,24 +92,26 @@ In the ideation stage, I had discussions with a number of people, in particular,
 
 ## Features Left to Implement
 
+## Technology used
+
 ## Testing
 
-## Validator Testing
+### Validator Testing
 - HTML
     - Add Link
 
 - CSS 
     - Add Link
 
-## Unfixed Bugs
+## Bugs
 
 ## Deployment
 
 ## Credits
 
-- Content
+## Content
 
 - Media
 
-## Other General Project Advice
+## Acknowledgements
 
