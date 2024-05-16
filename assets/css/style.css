@@ -506,6 +506,17 @@ textarea {
         background-attachment: fixed;
     }
 
+    /*Resize and animate booking button for devices with a mouse*/
+    #hero-text button {
+        font-size: 32px;
+    }
+
+    /*Increase size of hero cover text*/
+    #hero-text {
+        font-size: 40px;
+        bottom: 250px;
+    }
+
     /*Style images on about, services and contact pages*/
     #values-photo {
         display: flex;
@@ -540,11 +551,6 @@ textarea {
     #socials i:hover {
         transform: scale(1.15);
         transition: all 0.3s ease-in-out;
-    }
-
-    /*Resize and animate booking button for devices with a mouse*/
-    #hero-text button {
-        font-size: 32px;
     }
 
     .book-button:hover,
@@ -582,10 +588,9 @@ textarea {
                 margin: 24px;
             }  
 
-        /*Increase size of hero cover text*/
+        /*Style position of hero cover text*/
         #hero-text {
-            font-size: 40px;
-            bottom: 250px;
+            bottom: 400px;
         }
     }
 }
