@@ -121,7 +121,7 @@ In the ideation stage, I had discussions with a number of people, in particular,
  | Test                                                      | Expectation | Outcome |
  |-----------------------------------------------------------|-------------|---------|
  | Navigation links lead to their intended pages             | Pass        | Pass    |
- | Book Now button leads to external booking page, Zenbooker | Pass        | Pass    |
+ | Book Now button leads to external booking page            | Pass        | Pass    |
  | Contact Us button leads to contact form on contact page   | Pass        | Pass    |
  | Learn More button leads to about page                     | Pass        | Pass    |
  | Social links on footer lead to their respective pages     | Pass        | Pass    |
@@ -129,7 +129,17 @@ In the ideation stage, I had discussions with a number of people, in particular,
  | Get Quote button leads to contact form on contact page    | Pass        | Pass    |
  | Send Message and Clear Form buttons on contact form work  | Pass        | Pass    |
  | Users prevented from submitting empty form                | Pass        | Pass    |
- 
+ | Users prevented from submitting incorrect email format    | Pass        | Pass    |
+
+ #### Testing for responsiveness
+ | Test                                                      | Expectation | Outcome |
+ |-----------------------------------------------------------|-------------|---------|
+ | Home, about, services, gallery, testimonials and contact pages display correctly on mobiles and tablets (769px and lower)                       | Pass        | Pass    |
+ | Home, about, services, gallery, testimonials and contact pages display correctly on laptops and desktops (992px and higher - up to 1200px)      | Pass        | Pass    |
+
+ ### User Testing
+
+ #### User testing Challenge
 
 
 - HTML
