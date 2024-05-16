@@ -1,6 +1,32 @@
 # The Cleaning Hack
 
-This is a website 
+This website is built for my partner's cleaning business based out of Buckinghamshire, England.
+
+>Enter link to live site here
+
+>Place screen shots from Am I Responsive here
+
+>Place link to live website here (git-pages)
+
+>Paste link to github repository here
+
+##  Table of Contents
+1. UX Link
+2. Existing Features
+3. Future Features
+4. Technologies Used
+5. Testing
+6. Bugs
+7. Deployment
+8. Credits
+9. Content
+10. Acknowledgements
+
+## UX
+
+### Planning
+
+>In the ideation stage, I spoke with a number of people in my immediate circle as I was keen to build a website which would meet a real and present need.   
 
 ## Existing Features
 - Navigation Bar
