@@ -287,6 +287,13 @@ main {
     text-decoration: none;
 }
 
+/*Style photos on about, services and contact pages for mobile*/
+#values img,
+#cleaning-services img,
+#contact img {
+    width: 100%;
+}
+
 /*Styles for contact form user input areas*/
 input[type=text], select, textarea {
     width: 100%;
