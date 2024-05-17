@@ -21,18 +21,14 @@ This is a website built for my partner who owns a cleaning business with three e
 10. [Acknowledgements](#acknowledgements)
 
 ## UX
-### Planning
-
+### Project Planning
 During the project ideation stage, I limited my focus to friends and family as I was keen to build a website which would fulfill a real need. Discussions left me with three viable options - a do-over of my church website, a website for my sister to publish her stories, or a website for my partners current cleaning business. 
 
->All three options were weighed and 
-
-### Design
+>All three options were considered in relation to existing technologies and alternatives. There is already a website for my church, there currently exist a host of platforms my sister can and publishes her work however, my partner does not have a separate website dedicated to her business hence I went with this option. 
 
 ### Strategy Plane
-#### User Stories
 
-##### User
+#### User
 >As a user I want to be able to find a reliable cleaner in my area to clean my house. 
 As a user I want to be able to contact the user via email or phone. 
 As a user I want to be able to request a quote online. 
@@ -43,7 +39,7 @@ As a user I want to be able to read or hear from other people that have used thi
 As a user I want to be able to find out when the business is open.
 As a user I want to be able to view social media accounts.
 
-### Business Owner
+#### Business Owner
 >As the site owner, I want to showcase the value we provide and the of quality work we deliver to our clients. 
 As the site owner, I want to build trust and showcase our professionalism and reliability.
 As the site owner, I want to generate leads and provide an easy way for prospects to book in and request quotes. 
@@ -62,7 +58,7 @@ The website should provide the user with details of areas we operate in.
 ### Structure Plane
 >Based on the information to be provided to the user, the website should include a minimum of six pages consisting of: Home, About, Services, Gallery, Testimonials and Contact.
 
-### Home Page
+#### Home Page
 >Navigation with links to relevant pages.
 Hero welcome message with call to action to take user to either an external booking page or a contact form.
 Services page outlining types of work carried out and target audience. 
@@ -70,19 +66,25 @@ Gallery page showcasing some jobs carried out.
 Testimonials page showcasing reviews from existing clients. 
 Footer section with links to social media pages.
 
-### About 
+#### About 
 >The about page should have the company logo, values, vision and mission statement.
 The about page should explain any relevant information about the business in text format.
 
-### Services
->The services page should detail the different services provided by the business.
+#### Services
+>The services page should detail the different services provided by the business and what types of clients we service.
 
-### Gallery
->
+#### Gallery
+>The gallery page should show before and after photos in an organised and responsive format. 
 
-### Testimonials
+#### Testimonials
+>The testimonials page should reveal client satisfaction stories in an organised and responsive format.
 
 ### Contact
+>The contact page should have a contact form for the user to get in touch or request quote.
+The form should collect contact details for the customer so that the business can contact them back. 
+The contact form should include input options for name, email and message with yes or no selection for pets and parking restrictions.
+The contact form should give user feedback on submission.
+The contact form should give the user the option to clear form if any details are incorrect.
 
 ### Skeleton Plane
 #### Balsamiq Wireframes
