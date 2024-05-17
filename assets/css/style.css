@@ -18,6 +18,11 @@ body {
     background-color: #ffffff;
 }
 
+/*Hidden heading (applied to gallery and testimonials pages*/
+.hidden-heading {
+    display: none;
+}
+
 /*Generic styles for body headings and paragraphs text*/
 /*Style headings for values and mission*/
 .generic-div h2 {
