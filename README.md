@@ -34,8 +34,23 @@ During the project ideation stage, I limited my focus to friends and family as I
 ### User Stories
 
 ### User
+>As a user I want to be able to find a reliable cleaner in my area to clean my house. 
+As a user I want to be able to contact the user via email or phone. 
+As a user I want to be able to request a quote online. 
+As a user I was to be able to book an appointment online.
+As a user I want to be able to see the price. 
+As a user I want to be able to see evidence of previous work. 
+As a user I was to be able to read or hear from other people that have used this cleaner. 
+As a user I want to be able to find out when the business is open.
+As a user I want to be able to view social media accounts.
 
 ### Business Owner
+>As the site owner, I want to showcase the value we provide and the of quality work we deliver to our clients. 
+As the site owner, I want to build trust and showcase our professionalism and reliability.
+As the site owner, I want to generate leads and provide an easy way for prospects to book in and request quotes. 
+As the site owner I want to use this website to attract more prospects from in and around Buckinghamshire. 
+As the site owner, I want to attract potential talent to work for us. 
+As the site owner I want the user to see my business opening hours.
 
 ### Scope Plane
 >The website should have a Navigation menu that is consistent across all pages and devices.
