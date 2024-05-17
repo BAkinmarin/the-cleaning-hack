@@ -140,7 +140,12 @@ In the ideation stage, I had discussions with a number of people, in particular,
  ### User Testing
 
  #### User testing Challenge
- >Four users are asked prior to visitin
+ >Four users are asked prior to visiting
+
+#### User responsive testing
+>
+
+### Google Lighthouse Testing
 
 
 - HTML
