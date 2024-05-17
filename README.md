@@ -117,8 +117,6 @@ The contact form should give the user the option to clear form if any details ar
     - Fully responsive navigation bar on all pages.
     - The navigation bar is large enough to be clickable on smaller devices and provide easy transition between various pages without the need of the 'back' browser button.
 
->Place screenshot of landing page here
-
 - The Landing Page
     - The landing page includes a hero image with the Company slogan and two call to action buttons, 'Book Now' and 'Enquire Now'.
     - The 'Book Now' button is a convenient way of existing customers to schedule a deep clean visit with the Cleaning Hack or amend an existing booking. It is also handy for visitors who are less interested in perusing the contents of each page and just need a quote or wanting to ask questions. 
