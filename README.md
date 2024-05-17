@@ -2,7 +2,7 @@
 
 This is a website built for my partner who owns a cleaning business with three employees. The business is based in Buckinghamshire, England with operations extending to Berkshire, Hertfordshire and, on ocassion, Bedfordshire.
 
-![alt text](assets/images/tch-amiresponsive.png)
+![Am I Responsive Screenshot](assets/testing/tch-amiresponsive.png)
 
 ## [Live Site](https://bakinmarin.github.io/the-cleaning-hack/)
 
@@ -51,13 +51,17 @@ During the project ideation stage, I limited my focus to friends and family as I
 
 ### Skeleton Plane
 #### Balsamiq Wireframes
-![alt text](assets/images/wireframe-landing.png)
+##### Landing Page
+![Landing Page Wireframe](assets/wireframes/wireframe-landing.png)
 
-![alt text](assets/images/wireframe-gallery.png)
+##### Gallery Page
+![Gallery Wireframe](assets/wireframes/wireframe-gallery.png)
 
-![alt text](assets/images/wireframe-testimonials.png)
+##### Testimonials Page
+![Testimonials Wireframe](assets/wireframes/wireframe-testimonials.png)
 
-![alt text](assets/images/wireframe-contact.png)
+##### Contact Page
+![Contact Wireframe](assets/wireframes/wireframe-contact.png)
 
 >Description here
 
