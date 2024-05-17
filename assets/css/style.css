@@ -163,8 +163,7 @@ main {
 
 .col {
     margin-bottom: 10px;
-    border-radius: none;
-    border-style: groove;
+    border-style: ridge;
 }
 
 /*Style for column display on larger screens*/
@@ -191,13 +190,12 @@ main {
     font-weight: 700;
     font-size: 18px;
     color: rgb(18, 56, 71);
-    background-color: rgb(29, 87, 110, -7);
     border-color: rgb(29, 87, 110, 0.3);
     border-radius: 5px;
-    font-weight: 100px;
     text-transform: uppercase;
     padding: 6px;
     text-decoration: none;
+    border-style: solid;
 }
 
 /*Separate styles for hero buttons*/
@@ -209,10 +207,10 @@ main {
     color: #ffffff;
     border-style: double;
     border-color: #ffffff;
-    font-weight: 100px;
     text-transform: uppercase;
     padding: 6px;
     bottom: 10px;
+    text-decoration: none;
 }
 
 /*Div styles for about us, intro to services and services section on home and services pages*/
