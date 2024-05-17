@@ -2,7 +2,7 @@
 
 This is a website built for my partner who owns a cleaning business with three employees. The business is based in Buckinghamshire, England with operations extending to Berkshire, Hertfordshire and, on ocassion, Bedfordshire.
 
-![alt text](assets/images/tch-amiresponsive-screenshot.png)
+![alt text](assets/images/tch-amiresponsive.png)
 
 ## [Live Site](https://bakinmarin.github.io/the-cleaning-hack/)
 
@@ -21,7 +21,6 @@ This is a website built for my partner who owns a cleaning business with three e
 10. [Acknowledgements](#acknowledgements)
 
 ## UX
-
 ### Planning
 
 In the ideation stage, I had discussions with a number of people, in particular, my partner and sister, as I was keen to build a website which would fulfill a real need. Discussions left me with two viable options - a website for my sister to publish her stories or a website for my partners current cleaning business. 
@@ -71,7 +70,7 @@ In the ideation stage, I had discussions with a number of people, in particular,
 
 ## Features
 - Navigation Bar
-    - Fully responsive navigation bar on all pages except 'About' and 'Services' pages as these link to sections on the index.html page.
+    - Fully responsive navigation bar on all pages.
     - The navigation bar is large enough to be clickable on smaller devices and provide easy transition between various pages without the need of the 'back' browser button.
 
 >Place screenshot of landing page here
