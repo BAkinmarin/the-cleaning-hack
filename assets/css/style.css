@@ -197,6 +197,7 @@ main {
     font-weight: 100px;
     text-transform: uppercase;
     padding: 6px;
+    text-decoration: none;
 }
 
 /*Separate styles for hero buttons*/
@@ -206,7 +207,7 @@ main {
     font-weight: 700;
     font-size: 18px;
     color: #ffffff;
-    background-color: rgb(29, 87, 110, -7);
+    border-style: double;
     border-color: #ffffff;
     font-weight: 100px;
     text-transform: uppercase;
@@ -456,6 +457,7 @@ textarea {
         padding: 4px;
         text-transform: uppercase;
         font-weight: 700;
+        border-style: groove;
     }
 
     .book-button:hover,
