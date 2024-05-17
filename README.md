@@ -23,9 +23,9 @@ This is a website built for my partner who owns a cleaning business with three e
 ## UX
 ### Planning
 
-In the ideation stage, I had discussions with a number of people, in particular, my partner and sister, as I was keen to build a website which would fulfill a real need. Discussions left me with two viable options - a website for my sister to publish her stories or a website for my partners current cleaning business. 
+During the project ideation stage, I limited my focus to friends and family as I was keen to build a website which would fulfill a real need. Discussions left me with three viable options - a do-over of my church website, a website for my sister to publish her stories, or a website for my partners current cleaning business. 
 
->Both options were weighed against each other
+>All three options were weighed and 
 
 ### Design
 
@@ -50,8 +50,7 @@ In the ideation stage, I had discussions with a number of people, in particular,
 ### Contact
 
 ### Skeleton Plane
-
-### Balsamiq Wireframes
+#### Balsamiq Wireframes
 ![alt text](assets/images/wireframe-landing.png)
 
 ![alt text](assets/images/wireframe-gallery.png)
@@ -137,7 +136,6 @@ In the ideation stage, I had discussions with a number of people, in particular,
  | Home, about, services, gallery, testimonials and contact pages display correctly on laptops and desktops (992px and higher - up to 1200px)      | Pass        | Pass    |
 
  ### User Testing
-
  #### User testing Challenge
  >Four users are asked prior to visiting
 
@@ -147,11 +145,27 @@ In the ideation stage, I had discussions with a number of people, in particular,
 ### Google Lighthouse Testing
 
 
-- HTML
-    - Add Link
+### HTML Validation
+#### index.html
+![alt text](assets/images/tch-code-validation-index.html.png)
 
-- CSS 
-    - Add Link
+#### about.html
+![alt text](assets/images/tch-code-validation-about.html.png)
+
+#### services.html
+![alt text](assets/images/tch-code-validation-services.html.png)
+
+#### gallery.html
+![alt text](assets/images/tch-code-validation-gallery.html.png)
+
+#### testimonials.html
+![alt text](assets/images/tch-code-validation-testimonials.html.png)
+
+#### contact.html
+![alt text](assets/images/tch-code-validation-contact.html.png)
+
+#### CSS Validation
+![alt text](assets/images/tch-code-validation-style.css.png)
 
 ## Bugs
 
