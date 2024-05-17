@@ -269,7 +269,6 @@ main {
     text-transform: uppercase;
 }
 
-
 /*Style horizontal rule on hero*/
 #hero-text hr {
     width: 50%;
@@ -289,7 +288,7 @@ main {
     text-decoration: none;
 }
 
-/*Style photos on about, services and contact pages for mobile*/
+/*Size photos on about, services and contact pages for mobile*/
 #values img,
 #cleaning-services img,
 #contact img {
@@ -439,6 +438,13 @@ textarea {
         transition: all 0.3s ease-in-out;
     }
 
+    /*Resize photos on about, services and contact pages for larger devices*/
+    #values img,
+    #cleaning-services img,
+    #contact img {
+        width: auto;
+    }
+
     /*Resize and animate booking, contact and learn more buttons for devices with a mouse*/
     .book-button,
     .contact-button, 
@@ -539,7 +545,7 @@ textarea {
 
     /*Push main content further down on laptop devices*/
     main {
-        margin-top: 86px;
+        margin-top: 70px;
         margin-bottom: 20px;
     }
 
@@ -581,7 +587,6 @@ textarea {
         /*Increase font for larger screens*/
         #logo {
                 font-size: 24px;
-                /*margin: 24px;*/
             }  
 
         /*Increase size of hero cover text*/
