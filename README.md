@@ -38,10 +38,23 @@ During the project ideation stage, I limited my focus to friends and family as I
 ### Business Owner
 
 ### Scope Plane
+>The website should have a Navigation menu that is consistent across all pages and devices.
+The website should have clear messaging explaining to users who we are and what we do.
+The website should provide a succinct list of services we provide to the user.
+The website should build trust with the user through evidence provided in the form of testimonials and photos of cleaning jobs completed.
+The website should provide the user with a way to contact the business for quotes or consultations through a form.
+The website should provide the user with details of areas we operate in.
 
 ### Structure Plane
+>Based on the information to be provided to the user, the website should include a minimum of six pages consisting of: Home, About, Services, Gallery, Testimonials and Contact.
 
 ### Home Page
+>Navigation with links to relevant pages.
+Hero welcome message with call to action to take user to either an external booking page or a contact form.
+Services page outlining types of work carried out and target audience. 
+Gallery page showcasing some jobs carried out.
+Testimonials page showcasing reviews from existing clients. 
+Footer section with links to social media pages.
 
 ### About 
 
@@ -151,25 +164,25 @@ During the project ideation stage, I limited my focus to friends and family as I
 
 ### HTML Validation
 #### index.html
-![alt text](assets/images/tch-code-validation-index.html.png)
+![Validation - index.html](assets/testing/tch-code-validation-index.html.png)
 
 #### about.html
-![alt text](assets/images/tch-code-validation-about.html.png)
+![Validation - about.html](assets/testing/tch-code-validation-about.html.png)
 
 #### services.html
-![alt text](assets/images/tch-code-validation-services.html.png)
+![Validation - services.html](assets/testing/tch-code-validation-services.html.png)
 
 #### gallery.html
-![alt text](assets/images/tch-code-validation-gallery.html.png)
+![Validation - gallery.html](assets/testing/tch-code-validation-gallery.html.png)
 
 #### testimonials.html
-![alt text](assets/images/tch-code-validation-testimonials.html.png)
+![Validation - testimonials.html](assets/testing/tch-code-validation-testimonials.html.png)
 
 #### contact.html
-![alt text](assets/images/tch-code-validation-contact.html.png)
+![Validation - contact.html](assets/testing/tch-code-validation-contact.html.png)
 
 #### CSS Validation
-![alt text](assets/images/tch-code-validation-style.css.png)
+![Validation - style.css](assets/testing/tch-code-validation-style.css.png)
 
 ## Bugs
 
