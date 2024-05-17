@@ -404,7 +404,7 @@ textarea {
     }
 
     #logo h1 {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     /*Make body text larger on larger devices*/
@@ -514,12 +514,6 @@ textarea {
         font-size: 32px;
     }
 
-    /*Increase size of hero cover text*/
-    #hero-text {
-        font-size: 40px;
-        bottom: 250px;
-    }
-
     /*Style images on about, services and contact pages*/
     #values-photo,
     #contact-photo,
@@ -551,7 +545,7 @@ textarea {
 
     /*Increase size of media icons on footer*/
     #socials i {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     /*Add animation to socials for devices with a mouse*/
@@ -570,13 +564,8 @@ textarea {
         cursor: pointer;
     }
 
-    /*Styles for gallery*/
-    #gallery {
-        column-count: 3;
-        width: fit-content;
-    }
-
-    /*Style testimonials layout*/
+    /*Styles for gallery and testimonials layout*/
+    #gallery, 
     #testimonials {
         column-count: 3;
         width: fit-content;
@@ -591,8 +580,14 @@ textarea {
     @media screen and (min-width: 1200px) {
         /*Increase font for larger screens*/
         #logo {
-                font-size: 32px;
-                margin: 24px;
+                font-size: 24px;
+                /*margin: 24px;*/
             }  
+
+        /*Increase size of hero cover text*/
+        #hero-text {
+            font-size: 40px;
+            bottom: 100px;
+        }    
     }
 }
