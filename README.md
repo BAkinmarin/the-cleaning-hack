@@ -30,17 +30,16 @@ During the project ideation stage, I limited my focus to friends and family as I
 ### Design
 
 ### Strategy Plane
+#### User Stories
 
-### User Stories
-
-### User
+##### User
 >As a user I want to be able to find a reliable cleaner in my area to clean my house. 
 As a user I want to be able to contact the user via email or phone. 
 As a user I want to be able to request a quote online. 
-As a user I was to be able to book an appointment online.
+As a user I want to be able to book an appointment online.
 As a user I want to be able to see the price. 
 As a user I want to be able to see evidence of previous work. 
-As a user I was to be able to read or hear from other people that have used this cleaner. 
+As a user I want to be able to read or hear from other people that have used this cleaner. 
 As a user I want to be able to find out when the business is open.
 As a user I want to be able to view social media accounts.
 
@@ -72,8 +71,16 @@ Testimonials page showcasing reviews from existing clients.
 Footer section with links to social media pages.
 
 ### About 
+>The about page should have the company logo, values, vision and mission statement.
+The about page should explain any relevant information about the business in text format.
 
-### Portfolio
+### Services
+>The services page should detail the different services provided by the business.
+
+### Gallery
+>
+
+### Testimonials
 
 ### Contact
 
