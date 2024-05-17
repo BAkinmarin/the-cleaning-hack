@@ -27,7 +27,6 @@ During the project ideation stage, I limited my focus to friends and family as I
 >All three options were considered in relation to existing technologies and alternatives. There is already a website for my church, there currently exist a host of platforms my sister can and publishes her work however, my partner does not have a separate website dedicated to her business hence I went with this option. 
 
 ### Strategy Plane
-
 #### User
 >As a user I want to be able to find a reliable cleaner in my area to clean my house. 
 As a user I want to be able to contact the user via email or phone. 
@@ -103,10 +102,15 @@ The contact form should give the user the option to clear form if any details ar
 >Description here
 
 ### Surface Plane
-
-### Color
+#### Color
+>As the website was for an existing business I decided to stick with the existing color scheme of different hues of blue.
 
 ### Typography
+>The fonts chosen for this project were:
+- Fira Sans Condensed
+- San-serif
+
+>I wanted to match the existing styles as much as possible, with a focus on accessibility needs without distractions.
 
 ## Features
 - Navigation Bar
