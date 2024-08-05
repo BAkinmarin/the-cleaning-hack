@@ -11,7 +11,7 @@ This is a website built for my partner who owns a growing cleaning business with
 ##  Table of Contents
 1.  [UX](#ux)
 2.  [Existing Features](#features)
-3.  [Future Features](#future)
+3.  [Future Features](#future-features)
 4.  [Technology Used](#technology)
 5.  [Testing](#testing)
 6.  [Bugs](#bugs)
@@ -217,10 +217,21 @@ Project testing was done manually by myself, my partner, my sister and a couple 
 
  ### User Testing
  #### User testing Challenge
- Four users are asked prior to visiting
+ Four users were asked to carry out the following when they arrived at the website:
+ | Test                                                      | Result      |
+ |-----------------------------------------------------------|-------------|
+ | Navigate to business LinkedIn page                        | 100%        |
+ | Navigate to contact form from home page                   | 100%        |
+ | Fill in contact form with relevant details                | 100%        |
+ | Clear form after details entered to reset all fields      | 100%        |
+ | Navigate to business Google page                          | 100%        |
+
 
 #### User Responsive Testing
-
+Four users were asked to visit site on their mobile and/or table then provide feedback on issues where content was inaccessible or images and pages overlapping.
+| Test | Result |
+|------|--------|
+|Issues Reported| None|
 
 ### Google Lighthouse Testing
 
