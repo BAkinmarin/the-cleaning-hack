@@ -10,9 +10,9 @@ This is a website built for my partner who owns a cleaning business with three e
 
 ##  Table of Contents
 1.  [UX](#ux)
-2.  [Features](#features)
-3.  [Features Left To Implement](#features-left-to-implement)
-4.  [Technology Used](#technology-used)
+2.  [Existing Features](#features)
+3.  [Future Features](#future)
+4.  [Technology Used](#technology)
 5.  [Testing](#testing)
 6.  [Bugs](#bugs)
 7.  [Deployment](#deployment)
@@ -24,65 +24,93 @@ This is a website built for my partner who owns a cleaning business with three e
 ### Project Planning
 During the project ideation stage, I limited my focus to friends and family as I was keen to build a website which would fulfill a real need. Discussions left me with three viable options - a do-over of my church website, a website for my sister to publish her stories, or a website for my partners current cleaning business. 
 
->All three options were considered in relation to existing technologies and alternatives. There is already a website for my church, there currently exist a host of platforms my sister can and publishes her work however, my partner does not have a separate website dedicated to her business hence I went with this option. 
+All three options were considered in relation to existing technologies and alternatives. There is already a website for my church, there currently exist a host of platforms my sister can and publishes her work however, my partner does not have a separate website dedicated to her business hence I went with this option. 
 
 ### Strategy Plane
 #### User
->As a user I want to be able to find a reliable cleaner in my area to clean my house. 
-As a user I want to be able to contact the user via email or phone. 
-As a user I want to be able to request a quote online. 
+As a user I want to be able to find a reliable cleaner in my area to clean my house.
+
+As a user I want to be able to contact the user via email or phone.
+
+As a user I want to be able to request a quote online.
+
 As a user I want to be able to book an appointment online.
-As a user I want to be able to see the price. 
-As a user I want to be able to see evidence of previous work. 
-As a user I want to be able to read or hear from other people that have used this cleaner. 
+
+As a user I want to be able to see the price.
+
+As a user I want to be able to see evidence of previous work.
+
+As a user I want to be able to read or hear from other people that have used this cleaner.
+
 As a user I want to be able to find out when the business is open.
+
 As a user I want to be able to view social media accounts.
 
 #### Business Owner
->As the site owner, I want to showcase the value we provide and the of quality work we deliver to our clients. 
+As the site owner, I want to showcase the value we provide and the of quality work we deliver to our clients.
+
 As the site owner, I want to build trust and showcase our professionalism and reliability.
-As the site owner, I want to generate leads and provide an easy way for prospects to book in and request quotes. 
-As the site owner I want to use this website to attract more prospects from in and around Buckinghamshire. 
-As the site owner, I want to attract potential talent to work for us. 
+
+As the site owner, I want to generate leads and provide an easy way for prospects to book in and request quotes.
+
+As the site owner I want to use this website to attract more prospects from in and around Buckinghamshire.
+
+As the site owner, I want to attract potential talent to work for us.
+
 As the site owner I want the user to see my business opening hours.
 
 ### Scope Plane
->The website should have a Navigation menu that is consistent across all pages and devices.
+The website should have a Navigation menu that is consistent across all pages and devices.
+
 The website should have clear messaging explaining to users who we are and what we do.
+
 The website should provide a succinct list of services we provide to the user.
+
 The website should build trust with the user through evidence provided in the form of testimonials and photos of cleaning jobs completed.
+
 The website should provide the user with a way to contact the business for quotes or consultations through a form.
+
 The website should provide the user with details of areas we operate in.
 
 ### Structure Plane
->Based on the information to be provided to the user, the website should include a minimum of six pages consisting of: Home, About, Services, Gallery, Testimonials and Contact.
+Based on the information to be provided to the user, the website should include a minimum of six pages consisting of: Home, About, Services, Gallery, Testimonials and Contact.
 
 #### Home Page
->Navigation with links to relevant pages.
+Navigation with links to relevant pages.
+
 Hero welcome message with call to action to take user to either an external booking page or a contact form.
+
 Services page outlining types of work carried out and target audience. 
+
 Gallery page showcasing some jobs carried out.
-Testimonials page showcasing reviews from existing clients. 
+
+Testimonials page showcasing reviews from existing clients.
+
 Footer section with links to social media pages.
 
 #### About 
->The about page should have the company logo, values, vision and mission statement.
+The about page should have the company logo, values, vision and mission statement.
+
 The about page should explain any relevant information about the business in text format.
 
 #### Services
->The services page should detail the different services provided by the business and what types of clients we service.
+The services page should detail the different services provided by the business and what types of clients we service.
 
 #### Gallery
->The gallery page should show before and after photos in an organised and responsive format. 
+The gallery page should show before and after photos in an organised and responsive format. 
 
 #### Testimonials
->The testimonials page should reveal client satisfaction stories in an organised and responsive format.
+The testimonials page should reveal client satisfaction stories in an organised and responsive format.
 
 ### Contact
->The contact page should have a contact form for the user to get in touch or request quote.
+The contact page should have a contact form for the user to get in touch or request quote.
+
 The form should collect contact details for the customer so that the business can contact them back. 
+
 The contact form should include input options for name, email and message with yes or no selection for pets and parking restrictions.
+
 The contact form should give user feedback on submission.
+
 The contact form should give the user the option to clear form if any details are incorrect.
 
 ### Skeleton Plane
@@ -103,16 +131,16 @@ The contact form should give the user the option to clear form if any details ar
 
 ### Surface Plane
 #### Color
->As the website was for an existing business I decided to stick with the existing color scheme of different hues of blue.
+As the website was for an existing business I decided to stick with the existing color scheme of different hues of blue.
 
 ### Typography
->The fonts chosen for this project were:
+The fonts chosen for this project were:
 - Fira Sans Condensed
 - San-serif
 
->I wanted to match the existing styles as much as possible, with a focus on accessibility needs without distractions.
+I wanted to match the existing styles as much as possible, with a focus on accessibility needs without distractions.
 
-## Features
+## Existing Features
 - Navigation Bar
     - Fully responsive navigation bar on all pages.
     - The navigation bar is large enough to be clickable on smaller devices and provide easy transition between various pages without the need of the 'back' browser button.
@@ -122,39 +150,48 @@ The contact form should give the user the option to clear form if any details ar
     - The 'Book Now' button is a convenient way of existing customers to schedule a deep clean visit with the Cleaning Hack or amend an existing booking. It is also handy for visitors who are less interested in perusing the contents of each page and just need a quote or wanting to ask questions. 
 
 - The Cleaning Hack About Section
+    - The about section includes the company values and mission.
+    - This page exists to give visitors to the website - and potential customers - an idea into what the business stands for and expresses passion for cleaning.
 
 - The Cleaning Hack Services Section
-
-- The Cleaning Hack Testimonials Section
+    - The services section includes a list of cleaning services offered and areas covered. It also incluces a cleaning guarantee so customers feel secure when booking with the Company.
+    - The 'Get Quote' button is a convenient way for potential customers to proceed to obtaining a cleaning estimate without the need to explore other sections if they do not wish to do so. This button directs visitors to the 'Contact' page.
 
 - The Cleaning Hack Gallery Section
+    - The gallery section showcases previous jobs completed by the Company.
+    - It contains hand-picked photos of hard to clean areas and appliances intended to demonstrate the technical prowess of the Company.
+
+- The Cleaning Hack Testimonials Section
+    - The testimonials section includes real client reviews ranging from recurring domestic cleans to commerical clients.
 
 - The Cleaning Hack Contact Section
+    - The contact section includes a form requesting prospective customers to provide their Full Name, Email Address and to select a County from the drop-down. Prospects are also asked if they have any pet and if there are any parking restrictions on their road. 
+    - This page also includes a message box encouraging prospects to enter a brief description of their property i.e. number of bathrooms, bedrooms, etc. The prospect given the option to 'Send Message' or 'Clear Form'.
 
-## Features Left to Implement
+## Future Features
 
 ## Technology used
 
 #### HTML
->The backbone of website design and function; used to provide structure to the website.
+The backbone of website design and function; used to provide structure to the website.
 
 #### CSS
->Used to style the layout of each web page.
+Used to style the layout of each web page.
 
 #### Font Awesome
->Source of all the icons used in this project.
+Source of all the icons used in this project.
 
 #### Google Fonts
->Used to define the fonts used in the project (with the exclusion of the company logo). Also used to compate and pair font-styles.
+Used to define the fonts used in the project (with the exclusion of the company logo). Also used to compate and pair font-styles.
 
 #### Favicon.io
->Used to generate a favicon for the existing logo.
+Used to generate a favicon for the existing logo.
 
 #### Convert.io and Freeconvert.com
->Used in the conversion of files from jpeg and png to webp to aid in faster webpage loading.
+Used in the conversion of files from jpeg and png to webp to aid in faster webpage loading.
 
 ## Testing
->Project testing was done manually by myself, my partner, my sister and a couple friends from the Slack community. This was necessary to determine the usability, stability and responsiveness of the website and to gauage if the website is user-friendly. 
+Project testing was done manually by myself, my partner, my sister and a couple friends from the Slack community. This was necessary to determine the usability, stability and responsiveness of the website and to gauage if the website is user-friendly. 
 
 ### Testing Phase
 
@@ -180,10 +217,10 @@ The contact form should give the user the option to clear form if any details ar
 
  ### User Testing
  #### User testing Challenge
- >Four users are asked prior to visiting
+ Four users are asked prior to visiting
 
 #### User responsive testing
->
+
 
 ### Google Lighthouse Testing
 
