@@ -1,6 +1,6 @@
 # The Cleaning Hack
 
-This is a website built for my partner who owns a cleaning business with three employees. The business is based in Buckinghamshire, England with operations extending to Berkshire, Hertfordshire and, on ocassion, Bedfordshire.
+This is a website built for my partner who owns a growing cleaning business with three employees. The business is based in Buckinghamshire, England with operations extending to Berkshire, Hertfordshire and, on ocassion, Bedfordshire.
 
 ![Am I Responsive Screenshot](assets/testing/tch-amiresponsive.png)
 
@@ -140,7 +140,7 @@ The fonts chosen for this project were:
 
 I wanted to match the existing styles as much as possible, with a focus on accessibility needs without distractions.
 
-## Existing Features
+## Features
 - Navigation Bar
     - Fully responsive navigation bar on all pages.
     - The navigation bar is large enough to be clickable on smaller devices and provide easy transition between various pages without the need of the 'back' browser button.
@@ -170,7 +170,7 @@ I wanted to match the existing styles as much as possible, with a focus on acces
 
 ## Future Features
 
-## Technology used
+## Technology
 
 #### HTML
 The backbone of website design and function; used to provide structure to the website.
@@ -219,7 +219,7 @@ Project testing was done manually by myself, my partner, my sister and a couple 
  #### User testing Challenge
  Four users are asked prior to visiting
 
-#### User responsive testing
+#### User Responsive Testing
 
 
 ### Google Lighthouse Testing
@@ -249,13 +249,44 @@ Project testing was done manually by myself, my partner, my sister and a couple 
 
 ## Bugs
 
+### Solved Bugs
+Parking Restrictions - Radio Button Grouping
+- Unable to set selection to one radio button
+  - Fixed this by setting the 'name' attribute for both buttons to the same name.
+
+### Unsolved Bugs
+No unsolved bugs.  
+
+
 ## Deployment
+To deploy the project I followed these steps starting from the main project repository linked above.
+
+ 1. Clicked on `Settings` on the navigation menu in the repository
+ 2. I then selected the `Pages` menu on the side bar.
+ 3. In the first dropdown menu labeled `Source` I selected the branch of the name `main` from the dropdown.
+ 4. In the next dropdown labeled `/root` I left as the default option.
+ 5. Selected Save.
+ 
+I then received a notification from GitHub that my project is being deployed and after about 2 minutes and a couple of refreshes of the page it was ready and live.
 
 ## Credits
 
 ## Content
+### w3 schools
+Used when researching how to use CSS flexbox for responsiveness.
 
-- Media
+### YouTube
+
+### Coode Institute
+Project created in line with course content, walkthrough project and and within project 1 scope.
+
 
 ## Acknowledgements
+
+### Owner of The Cleaning Hack
+My partner, who set aside time to support with the ideation process and provided me with the media and some of the text used in this project.
+
+
+### Alan Bushell
+My mentor, who helped point me in the right direction when stuck on certain concepts.
 
