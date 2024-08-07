@@ -141,32 +141,90 @@ The fonts chosen for this project were:
 I wanted to match the existing styles as much as possible, with a focus on accessibility needs without distractions.
 
 ## Features
-- Navigation Bar
-    - Fully responsive navigation bar on all pages.
-    - The navigation bar is large enough to be clickable on smaller devices and provide easy transition between various pages without the need of the 'back' browser button.
 
-- The Landing Page
-    - The landing page includes a hero image with the Company slogan and two call to action buttons, 'Book Now' and 'Enquire Now'.
-    - The 'Book Now' button is a convenient way of existing customers to schedule a deep clean visit with the Cleaning Hack or amend an existing booking. It is also handy for visitors who are less interested in perusing the contents of each page and just need a quote or wanting to ask questions. 
+### index.html
 
-- The Cleaning Hack About Section
-    - The about section includes the company values and mission.
-    - This page exists to give visitors to the website - and potential customers - an idea into what the business stands for and expresses passion for cleaning.
+### Navigation Bar
 
-- The Cleaning Hack Services Section
-    - The services section includes a list of cleaning services offered and areas covered. It also incluces a cleaning guarantee so customers feel secure when booking with the Company.
-    - The 'Get Quote' button is a convenient way for potential customers to proceed to obtaining a cleaning estimate without the need to explore other sections if they do not wish to do so. This button directs visitors to the 'Contact' page.
+![Navigation Bar](assets/features/tch-navbar.png)
 
-- The Cleaning Hack Gallery Section
-    - The gallery section showcases previous jobs completed by the Company.
-    - It contains hand-picked photos of hard to clean areas and appliances intended to demonstrate the technical prowess of the Company.
+- This project includes a fully responsive navigation bar on all pages.
 
-- The Cleaning Hack Testimonials Section
-    - The testimonials section includes real client reviews ranging from recurring domestic cleans to commerical clients.
+- The navigation bar is large enough to be clickable on smaller devices and provide easy transition between various pages without the need of the 'back' browser button.
 
-- The Cleaning Hack Contact Section
-    - The contact section includes a form requesting prospective customers to provide their Full Name, Email Address and to select a County from the drop-down. Prospects are also asked if they have any pet and if there are any parking restrictions on their road. 
-    - This page also includes a message box encouraging prospects to enter a brief description of their property i.e. number of bathrooms, bedrooms, etc. The prospect given the option to 'Send Message' or 'Clear Form'.
+
+### Landing Page 
+
+![Landing Page](assets/features/tch-landing-page.png)
+
+- The landing page includes a hero image with the Company slogan and two call to action buttons, 'Book Now' and 'Contact Us'.
+
+- The 'Book Now' button is a convenient way of existing customers to schedule a deep clean visit with the Cleaning Hack or amend an existing booking.
+
+- The 'Contact Us' button is especially useful for visitors and prospective clients who are less interested in perusing the contents of each page and just need a quote or have questions.
+
+
+### about.html
+
+### The Cleaning Hack About Page 
+
+![About Page](assets/features/tch-about-page.png)
+
+- The 'About' page section includes the Company Values, Mission and Vision.
+
+- The page seeks to give potential customers some insight into the business and is an expression of their passion for cleaning.
+
+
+### services.html
+
+### The Cleaning Hack Services Page 
+
+![Services Page](assets/features/tch-services-page.png)
+
+- The 'Services Page' includes a list of cleaning services offered and areas covered. It also includes a cleaning guarantee so customers feel secure when booking with the Company.
+
+- The 'Get Quote' button is a convenient way for potential customers to proceed to obtaining a cleaning estimate without the need to explore other sections if they do not wish to do so. This button directs visitors to the 'Contact' page.
+
+
+### gallery.html
+
+### The Cleaning Hack Gallery Page 
+
+![Gallery Page](assets/features/tch-gallery-page.png)
+
+- The gallery page showcases previous jobs completed by the Company.
+
+- It contains hand-picked photos of hard to clean areas and large appliances to adequately demonstrate the technical prowess of the Company.
+
+
+### testimonials.html
+
+### The Cleaning Hack Testimonials Page 
+
+![Testimonials Page](assets/features/tch-testimonials-page.png)
+
+- The testimonials section includes real client reviews ranging from recurring domestic cleans to commerical clients.
+
+
+### contact.html
+
+### The Cleaning Hack Contact Page 
+
+![Contact Page](assets/features/tch-contact-us-page.png)
+
+- The contact section includes a form requesting prospective customers to provide their Full Name, Email Address and to select a County from the drop-down. Prospects are also asked if they have any pet and if there are any parking restrictions on their road. 
+
+- This page also includes a message box encouraging prospects to enter a brief description of their property i.e. number of bathrooms, bedrooms, etc. The prospect given the option to 'Send Message' or 'Clear Form'.
+
+
+### Footer
+
+![Footer](assets/features/tch-footer.png)
+
+- This project includes an interactive footer on all pages.
+
+- The footer is visible on all devices and includes clickable icons to The Cleaning Hack's socials.
+
 
 ## Future Features
 
