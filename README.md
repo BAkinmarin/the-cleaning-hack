@@ -292,6 +292,23 @@ Four users were asked to visit site on their mobile and/or table then provide fe
 |Issues Reported| None|
 
 ### Google Lighthouse Testing
+#### index.html
+![Google Lighthouse - index.html](assets/testing/tch-lighthouse-index.png)
+
+#### about.html
+![Google Lighthouse - about.html](assets/testing/tch-lighthouse-about.png)
+
+#### services.html
+![Google Lighthouse - services.html](assets/testing/tch-lighthouse-services.png)
+
+#### gallery.html
+![Google Lighthouse - gallery.html](assets/testing/tch-lighthouse-gallery.png)
+
+#### testimonials.html
+![Google Lighthouse - testimonials.html]()
+
+#### contact.html
+![Google Lighthouse - contact.html]()
 
 
 ### HTML Validation
