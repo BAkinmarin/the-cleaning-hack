@@ -1,6 +1,6 @@
 # The Cleaning Hack
 
-This is a website built for my partner who owns a growing cleaning business with three employees. The business is based in Buckinghamshire, England with operations extending to Berkshire, Hertfordshire and, on ocassion, Bedfordshire.
+This is a website built for my partner, who owns a growing cleaning business with three employees. The business is based in Buckinghamshire, England with operations extending to Berkshire, Hertfordshire and, on ocassion, Bedfordshire.
 
 ![Am I Responsive Screenshot](assets/testing/tch-amiresponsive.png)
 
@@ -305,10 +305,10 @@ Four users were asked to visit site on their mobile and/or table then provide fe
 ![Google Lighthouse - gallery.html](assets/testing/tch-lighthouse-gallery.png)
 
 #### testimonials.html
-![Google Lighthouse - testimonials.html]()
+![Google Lighthouse - testimonials.html](assets/testing/tch-lighthouse-testimonials.png)
 
 #### contact.html
-![Google Lighthouse - contact.html]()
+![Google Lighthouse - contact.html](assets/testing/tch-lighthouse-contact.png)
 
 
 ### HTML Validation
@@ -341,7 +341,7 @@ Parking Restrictions - Radio Button Grouping
   - Fixed this by setting the 'name' attribute for both buttons to the same name.
 
 ### Unsolved Bugs
-No unsolved bugs.  
+No unsolved bugs found.  
 
 
 ## Deployment
@@ -356,22 +356,41 @@ To deploy the project I followed these steps starting from the main project repo
 I then received a notification from GitHub that my project is being deployed and after about 2 minutes and a couple of refreshes of the page it was ready and live.
 
 ## Credits
+[Hero Image](https://www.pexels.com/photo/spacious-lounge-with-comfortable-sofa-and-electric-embedded-stove-6782358/)
 
-## Content
+
+## Content and Resources
+### Company Logo
+The Cleaning Hack logo as well as the text were sourced directly from the business owner.
+
+### Google Fonts
+Embedded code imported from Google fonts.
+
+### Pexels.com
+Used to source images for this project.
+
+### css-tricks.com
+Used to broaden my understanding of CSS flexbox properties.
+
+### MDN Web Docs
+Also used to research the application of CSS flexbox.
+
 ### w3 schools
 Used when researching how to use CSS flexbox for responsiveness.
 
 ### YouTube
+Free online resources used to research different real-life applications of CSS flexbox.
 
 ### Coode Institute
 Project created in line with course content, walkthrough project and and within project 1 scope.
 
+### AmIResponsive.com
+Used to check responsiveness of the website
+
 
 ## Acknowledgements
-
 ### Owner of The Cleaning Hack
 My partner, who set aside time to support with the ideation process and provided me with the media and some of the text used in this project.
-
 
 ### Alan Bushell
 My mentor, who helped point me in the right direction when stuck on certain concepts.
