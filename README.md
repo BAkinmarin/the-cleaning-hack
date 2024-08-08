@@ -1,6 +1,6 @@
 # The Cleaning Hack
 
-This is a website built for my partner, who owns a growing cleaning business with three employees. The business is based in Buckinghamshire, England with operations extending to Berkshire, Hertfordshire and, on ocassion, Bedfordshire.
+This is a website built for the owner of a growing cleaning business who currently have four employees. The business is based in Buckinghamshire, England with operations extending to Berkshire, Hertfordshire and, on ocassion, Bedfordshire.
 
 ![Am I Responsive Screenshot](assets/testing/tch-amiresponsive.png)
 
@@ -22,9 +22,9 @@ This is a website built for my partner, who owns a growing cleaning business wit
 
 ## UX
 ### Project Planning
-During the project ideation stage, I limited my focus to friends and family as I was keen to build a website which would fulfill a real need. Discussions left me with three viable options - a do-over of my church website, a website for my sister to publish her stories, or a website for my partners current cleaning business. 
+During the project ideation stage, I limited my focus to friends and family as I was keen to build a website which would fulfill a real need. Discussions left me with three viable options - a do-over of my church website, a website for a sibling to publish their stories, or a website for a family member's cleaning business. 
 
-All three options were considered in relation to existing technologies and alternatives. There is already a website for my church, there currently exist a host of platforms my sister can and publishes her work however, my partner does not have a separate website dedicated to her business hence I went with this option. 
+All three options were considered in relation to existing technologies and alternatives. There is already a website for my church, there currently exists a host of platforms my sibling can and does publish on however, as there was no dedicated website for the cleaning business, I decided to go with this option. 
 
 ### Strategy Plane
 #### User
@@ -36,7 +36,7 @@ As a user I want to be able to request a quote online.
 
 As a user I want to be able to book an appointment online.
 
-As a user I want to be able to see the price.
+As a user I want to be able to see the price before booking an appointment.
 
 As a user I want to be able to see evidence of previous work.
 
@@ -47,11 +47,11 @@ As a user I want to be able to find out when the business is open.
 As a user I want to be able to view social media accounts.
 
 #### Business Owner
-As the site owner, I want to showcase the value we provide and the of quality work we deliver to our clients.
+As the site owner, I want to showcase the value we provide and the quality of work we deliver to our clients.
 
 As the site owner, I want to build trust and showcase our professionalism and reliability.
 
-As the site owner, I want to generate leads and provide an easy way for prospects to book in and request quotes.
+As the site owner, I want to generate leads and provide an easy way for prospects to book in and / or request quotes.
 
 As the site owner I want to use this website to attract more prospects from in and around Buckinghamshire.
 
@@ -60,9 +60,9 @@ As the site owner, I want to attract potential talent to work for us.
 As the site owner I want the user to see my business opening hours.
 
 ### Scope Plane
-The website should have a Navigation menu that is consistent across all pages and devices.
+The website should have a navigation menu that is consistent across all pages and devices.
 
-The website should have clear messaging explaining to users who we are and what we do.
+The website should have clear messaging to users explaining who we are and what we do.
 
 The website should provide a succinct list of services we provide to the user.
 
@@ -78,9 +78,9 @@ Based on the information to be provided to the user, the website should include 
 #### Home Page
 Navigation with links to relevant pages.
 
-Hero welcome message with call to action to take user to either an external booking page or a contact form.
+Hero welcome message with call to action to take user to a booking page or a contact form.
 
-Services page outlining types of work carried out and target audience. 
+Services page outlining types of work carried out and target audience.
 
 Gallery page showcasing some jobs carried out.
 
@@ -91,13 +91,13 @@ Footer section with links to social media pages.
 #### About 
 The about page should have the company logo, values, vision and mission statement.
 
-The about page should explain any relevant information about the business in text format.
+The about page should explain any relevant information about the company in text format.
 
 #### Services
-The services page should detail the different services provided by the business and what types of clients we service.
+The services page should detail the different services provided by the company and what types of clients we service.
 
 #### Gallery
-The gallery page should show before and after photos in an organised and responsive format. 
+The gallery page should consist before and after photos in an organised and responsive format. 
 
 #### Testimonials
 The testimonials page should reveal client satisfaction stories in an organised and responsive format.
@@ -105,13 +105,13 @@ The testimonials page should reveal client satisfaction stories in an organised 
 ### Contact
 The contact page should have a contact form for the user to get in touch or request quote.
 
-The form should collect contact details for the customer so that the business can contact them back. 
+The form should collect contact details for the user so that the company can follow-up with them. 
 
-The contact form should include input options for name, email and message with yes or no selection for pets and parking restrictions.
+The contact form should include input options for name, email and message, with yes or no selection for pets and parking restrictions.
 
 The contact form should give user feedback on submission.
 
-The contact form should give the user the option to clear form if any details are incorrect.
+The contact form should give the user the option to clear the form if any details are incorrect.
 
 ### Skeleton Plane
 #### Balsamiq Wireframes
@@ -127,18 +127,20 @@ The contact form should give the user the option to clear form if any details ar
 ##### Contact Page
 ![Contact Wireframe](assets/wireframes/wireframe-contact.png)
 
->Description here
+The features and flow of this website are intended to showcase a minimalist design with a focus on accessible information regarding The Cleaning Hack's offerings and a format which is effective on all devices.
+
+As the project took shape, the initial design as shown in the wireframes was adjusted and re-adjusted to prioritise key requirements for a functional project, and for delivery within the allocated time frame.
 
 ### Surface Plane
-#### Color
-As the website was for an existing business I decided to stick with the existing color scheme of different hues of blue.
+#### Colour
+As the website was for an existing business I decided to stick with the existing colour scheme; different hues of blue.
 
 ### Typography
 The fonts chosen for this project were:
 - Fira Sans Condensed
 - San-serif
 
-I wanted to match the existing styles as much as possible, with a focus on accessibility needs without distractions.
+I wanted to match existing styles as much as possible, and prioritise accessibility needs without distractions.
 
 ## Features
 
@@ -148,9 +150,9 @@ I wanted to match the existing styles as much as possible, with a focus on acces
 
 ![Navigation Bar](assets/features/tch-navbar.png)
 
-- This project includes a fully responsive navigation bar on all pages.
+- This project includes a fully responsive navigation bar on all pages and consists of links to various pages all listed on the right side of the Company name.
 
-- The navigation bar is large enough to be clickable on smaller devices and provide easy transition between various pages without the need of the 'back' browser button.
+- On smaller devices, the navigation bar is a burger icon, providing easy transition between various pages without the need of the 'back' browser button.
 
 
 ### Landing Page 
@@ -159,9 +161,9 @@ I wanted to match the existing styles as much as possible, with a focus on acces
 
 - The landing page includes a hero image with the Company slogan and two call to action buttons, 'Book Now' and 'Contact Us'.
 
-- The 'Book Now' button is a convenient way of existing customers to schedule a deep clean visit with the Cleaning Hack or amend an existing booking.
+- The 'Book Now' button is a convenient way for existing clients to schedule / reschedule cleaning visits with The Cleaning Hack or amend an existing booking.
 
-- The 'Contact Us' button is especially useful for visitors and prospective clients who are less interested in perusing the contents of each page and just need a quote or have questions.
+- The 'Contact Us' button is especially useful for users who are less interested in perusing the contents of each page and just need a quote or have questions.
 
 
 ### about.html
@@ -172,7 +174,7 @@ I wanted to match the existing styles as much as possible, with a focus on acces
 
 - The 'About' page section includes the Company Values, Mission and Vision.
 
-- The page seeks to give potential customers some insight into the business and is an expression of their passion for cleaning.
+- The page seeks to give prospects some insight into the business, and is an expression of The Cleaning Hack's passion for cleaning.
 
 
 ### services.html
@@ -181,9 +183,9 @@ I wanted to match the existing styles as much as possible, with a focus on acces
 
 ![Services Page](assets/features/tch-services-page.png)
 
-- The 'Services Page' includes a list of cleaning services offered and areas covered. It also includes a cleaning guarantee so customers feel secure when booking with the Company.
+- The 'Services Page' includes a list of cleaning services offered and areas covered. It also includes a cleaning guarantee so prospects feel secure when booking with the Company.
 
-- The 'Get Quote' button is a convenient way for potential customers to proceed to obtaining a cleaning estimate without the need to explore other sections if they do not wish to do so. This button directs visitors to the 'Contact' page.
+- The 'Get Quote' button is a convenient way for prospects to obtain a cleaning estimate without the need to explore other sections of the website, if they do not wish to do so. This button directs prospects to the 'Contact' page.
 
 
 ### gallery.html
@@ -203,7 +205,7 @@ I wanted to match the existing styles as much as possible, with a focus on acces
 
 ![Testimonials Page](assets/features/tch-testimonials-page.png)
 
-- The testimonials section includes real client reviews ranging from recurring domestic cleans to commerical clients.
+- The testimonials section includes real client reviews ranging from recurring domestic cleans to commercial clients.
 
 
 ### contact.html
@@ -212,7 +214,7 @@ I wanted to match the existing styles as much as possible, with a focus on acces
 
 ![Contact Page](assets/features/tch-contact-us-page.png)
 
-- The contact section includes a form requesting prospective customers to provide their Full Name, Email Address and to select a County from the drop-down. Prospects are also asked if they have any pet and if there are any parking restrictions on their road. 
+- The contact section includes a form requesting prospects to provide their Full Name, Email Address and to select a County from the drop-down. Prospects are also asked if they have any pet and if there are any parking restrictions on their road. 
 
 - This page also includes a message box encouraging prospects to enter a brief description of their property i.e. number of bathrooms, bedrooms, etc. The prospect given the option to 'Send Message' or 'Clear Form'.
 
