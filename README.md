@@ -230,21 +230,21 @@ I wanted to match existing styles as much as possible, and prioritise accessibil
 
 ## Future Features
 ### About Page
-I would enhance the 'About' page through the inclusion of a section about the CEO. It would include a photo and brief background into the owner and how The Cleaning Hack got started.
+Enhance the 'About' page through the inclusion of a section on the CEO. It would have a photo and brief introduction of the owner of The Cleaning Hack, with insights into how the Company got started.
 
 ### Services Page
-I would like to introduce more animation and images on the 'Services' page.
+Introduce animation to the 'Services' page, making it more interactive and engaging.
 
 ### Testimonials
-I would like to add card animation so that when visitors hover over client reviews, a before and after photo showcasing the particular work carried out for the client is displayed.
+Introduce card animation so that when prospects hover over client reviews, a before and after photo showcasing the corresponding work is displayed.
 
 ### Contact Us
-I would like to develop and integrate a backend for the contact form to capture prospects details and improve on lead generation for the business. 
+Develop and integrate a backend for the contact form to capture a prospect's details, which would then feed into the business's lead generation / management system. 
 
-I would also like to add a WhatsApp option so prospects can send instant messages for a quicker response. 
+Add a WhatsApp option so prospects can send instant messages for a quicker response. 
 
 ### Additional Page Ideas
-I would like to develop and integrate a cleaning calculator specifically for prospects with residential enquiries so that they can obtain an estimate of how much it would cost based on the size of their property.
+Develop and integrate a cleaning calculator for prospects with residential enquiries so they can obtain an estimate based on property size and room details.
 
 
 ## Technology
@@ -259,16 +259,16 @@ Used to style the layout of each web page.
 Source of all the icons used in this project.
 
 #### Google Fonts
-Used to define the fonts used in the project (with the exclusion of the company logo). Also used to compate and pair font-styles.
+Used to define the fonts used in the project (with the exclusion of the company logo). Also used to compare and pair font-styles.
 
 #### Favicon.io
-Used to generate a favicon for the existing logo.
+Used to generate a favicon using the existing logo.
 
 #### Convert.io and Freeconvert.com
-Used in the conversion of files from jpeg and png to webp to aid in faster webpage loading.
+Used to convert jpeg and png files to webp for faster webpage loading.
 
 ## Testing
-Project testing was done manually by myself, my partner, my sister and a couple friends from the Slack community. This was necessary to determine the usability, stability and responsiveness of the website and to gauage if the website is user-friendly. 
+Project testing was done manually by myself, the business owner, and a handful of family and friends from the Slack community. This was necessary to determine the usability, stability and responsiveness of the website and to gauage user-friendliness.
 
 ### Testing Phase
 
@@ -294,18 +294,18 @@ Project testing was done manually by myself, my partner, my sister and a couple 
 
  ### User Testing
  #### User testing Challenge
- Four users were asked to carry out the following when they arrived at the website:
+ Four users were asked to carry out the following when they arrived at the website (each test was scored out of 5 and the result recorded as the average score):
  | Test                                                      | Result      |
  |-----------------------------------------------------------|-------------|
  | Navigate to business LinkedIn page                        | 100%        |
  | Navigate to contact form from home page                   | 100%        |
  | Fill in contact form with relevant details                | 100%        |
- | Clear form after details entered to reset all fields      | 100%        |
+ | Clear form after details entered to reset form fields     | 100%        |
  | Navigate to business Google page                          | 100%        |
 
 
-#### User Responsive Testing
-Four users were asked to visit site on their mobile and/or table then provide feedback on issues where content was inaccessible or images and pages overlapping.
+#### User Responsiveness Testing
+Four users were asked to visit the website on their mobile and / or tablet and to provide feedback on any issues such as inaccessible content or overlapping images and pages.
 | Test | Result |
 |------|--------|
 |Issues Reported| None|
@@ -364,7 +364,7 @@ No unsolved bugs found.
 
 
 ## Deployment
-To deploy the project I followed these steps starting from the main project repository linked above.
+To deploy the project I followed the below steps starting from the main project repository linked above.
 
  1. Clicked on `Settings` on the navigation menu in the repository
  2. I then selected the `Pages` menu on the side bar.
@@ -372,10 +372,12 @@ To deploy the project I followed these steps starting from the main project repo
  4. In the next dropdown labeled `/root` I left as the default option.
  5. Selected Save.
  
-I then received a notification from GitHub that my project is being deployed and after about 2 minutes and a couple of refreshes of the page it was ready and live.
+I then received a notification from GitHub that my project was in the process of being deployed and after about two minutes, and a couple of refreshes of the page it was ready and live.
 
 ## Credits
 [Hero Image](https://www.pexels.com/photo/spacious-lounge-with-comfortable-sofa-and-electric-embedded-stove-6782358/)
+
+[Youtube Tutorial - Luke Peters](https://www.youtube.com/watch?v=-pcMxrugSbs&list=PLR8ZapyrzHbLGofZs2OrWRVWCYZdaYu3E&index=1)
 
 
 ## Content and Resources
@@ -383,7 +385,7 @@ I then received a notification from GitHub that my project is being deployed and
 The Cleaning Hack logo as well as the text were sourced directly from the business owner.
 
 ### Google Fonts
-Embedded code imported from Google fonts.
+Used for typography applied to this project.
 
 ### Pexels.com
 Used to source images for this project.
@@ -408,8 +410,8 @@ Used to check responsiveness of the website
 
 
 ## Acknowledgements
-### Owner of The Cleaning Hack
-My partner, who set aside time to support with the ideation process and provided me with the media and some of the text used in this project.
+### Rebecca Wilson-Kane
+Owner and CEO of The Cleaning Hack, who set aside a considerable amount of time to support the ideation process and subsequently contributed towards the media and content found in this project.
 
 ### Alan Bushell
 My mentor, who helped point me in the right direction when stuck on certain concepts.
