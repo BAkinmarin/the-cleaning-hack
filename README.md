@@ -1,6 +1,6 @@
 # The Cleaning Hack
 
-This is a website built for the owner of a growing cleaning business who currently have four employees. The business is based in Buckinghamshire, England with operations extending to Berkshire, Hertfordshire and, on ocassion, Bedfordshire.
+This is a website built for the owner of a growing cleaning business based in Buckinghamshire with operations extending to Berkshire, Hertfordshire and Bedfordshire.
 
 ![Am I Responsive Screenshot](assets/testing/tch-amiresponsive.png)
 
@@ -22,9 +22,9 @@ This is a website built for the owner of a growing cleaning business who current
 
 ## UX
 ### Project Planning
-During the project ideation stage, I limited my focus to friends and family as I was keen to build a website which would fulfill a real need. Discussions left me with three viable options - a do-over of my church website, a website for a sibling to publish their stories, or a website for a family member's cleaning business. 
+During the project ideation stage, I restricted my point of reference to close friends and family as I was keen to build a website which would fulfill a real need for someone close to me. Discussions left me with three viable options - redesign my church website, design and develop a dedicated website for publishing stories, or design and develop a dedicated website for a cleaning business, The Cleaning Hack. 
 
-All three options were considered in relation to existing technologies and alternatives. There is already a website for my church, there currently exists a host of platforms my sibling can and does publish on however, as there was no dedicated website for the cleaning business, I decided to go with this option. 
+All three options were considered in relation to existing technologies and potential alternatives. I chose the option to create a dedicated website for The Cleaning Hack. I decided this choice would be most advantageous overall as it would enhance the business owner's ability to market their services and broaden their reach, utimately contributing to their growth and success.
 
 ### Strategy Plane
 #### User
@@ -196,7 +196,7 @@ I wanted to match existing styles as much as possible, and prioritise accessibil
 
 - The gallery page showcases previous jobs completed by the Company.
 
-- It contains hand-picked photos of hard to clean areas and large appliances to adequately demonstrate the technical prowess of the Company.
+- It contains carefully selected photos of difficult-to-clean areas and large appliances, highlighting the Company's technical expertise.
 
 
 ### testimonials.html
@@ -205,7 +205,7 @@ I wanted to match existing styles as much as possible, and prioritise accessibil
 
 ![Testimonials Page](assets/features/tch-testimonials-page.png)
 
-- The testimonials section includes real client reviews ranging from recurring domestic cleans to commercial clients.
+- The testimonials section includes real client reviews for jobs ranging from recurring domestic cleans to commercial cleans.
 
 
 ### contact.html
@@ -214,9 +214,9 @@ I wanted to match existing styles as much as possible, and prioritise accessibil
 
 ![Contact Page](assets/features/tch-contact-us-page.png)
 
-- The contact section includes a form requesting prospects to provide their Full Name, Email Address and to select a County from the drop-down. Prospects are also asked if they have any pet and if there are any parking restrictions on their road. 
+- The contact section includes a form requesting prospects to provide their Full Name, Email Address and to select a County from the drop-down. Prospects are also asked to indicate using 'Yes' or 'No' if they have pets and, if there are any parking restrictions on their road. 
 
-- This page also includes a message box encouraging prospects to enter a brief description of their property i.e. number of bathrooms, bedrooms, etc. The prospect given the option to 'Send Message' or 'Clear Form'.
+- There is a message box that encourages prospects to provide a brief description of their property, including details such as the number of bathrooms, bedrooms, and other living areas. There is also a 'Clear Form' option available to the prospect.
 
 
 ### Footer
@@ -225,10 +225,27 @@ I wanted to match existing styles as much as possible, and prioritise accessibil
 
 - This project includes an interactive footer on all pages.
 
-- The footer is visible on all devices and includes clickable icons to The Cleaning Hack's socials.
+- The footer is visible on all devices and includes clickable icons linking to The Cleaning Hack's social media pages.
 
 
 ## Future Features
+### About Page
+I would enhance the 'About' page through the inclusion of a section about the CEO. It would include a photo and brief background into the owner and how The Cleaning Hack got started.
+
+### Services Page
+I would like to introduce more animation and images on the 'Services' page.
+
+### Testimonials
+I would like to add card animation so that when visitors hover over client reviews, a before and after photo showcasing the particular work carried out for the client is displayed.
+
+### Contact Us
+I would like to develop and integrate a backend for the contact form to capture prospects details and improve on lead generation for the business. 
+
+I would also like to add a WhatsApp option so prospects can send instant messages for a quicker response. 
+
+### Additional Page Ideas
+I would like to develop and integrate a cleaning calculator specifically for prospects with residential enquiries so that they can obtain an estimate of how much it would cost based on the size of their property.
+
 
 ## Technology
 
