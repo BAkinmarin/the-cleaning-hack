@@ -40,9 +40,9 @@ As a user I want to be able to see the price before booking an appointment.
 
 As a user I want to be able to see evidence of previous work.
 
-As a user I want to be able to read or hear from other people that have used this cleaner.
+As a user I want to be able to read or hear from other people that have used this company's services.
 
-As a user I want to be able to find out when the business is open.
+As a user I want to be able to see the business's operational hours.
 
 As a user I want to be able to view social media accounts.
 
@@ -268,7 +268,7 @@ Used to generate a favicon using the existing logo.
 Used to convert jpeg and png files to webp for faster webpage loading.
 
 ## Testing
-Project testing was done manually by myself, the business owner, and a handful of family and friends from the Slack community. This was necessary to determine the usability, stability and responsiveness of the website and to gauage user-friendliness.
+Project testing was done manually by myself, the business owner, and a handful of family and friends from the Slack community. This was necessary to determine the usability, stability and responsiveness of the website and to gauge user-friendliness.
 
 ### Testing Phase
 
@@ -366,7 +366,7 @@ No unsolved bugs found.
 ## Deployment
 To deploy the project I followed the below steps starting from the main project repository linked above.
 
- 1. Clicked on `Settings` on the navigation menu in the repository
+ 1. Clicked on `Settings` on the navigation menu in the repository.
  2. I then selected the `Pages` menu on the side bar.
  3. In the first dropdown menu labeled `Source` I selected the branch of the name `main` from the dropdown.
  4. In the next dropdown labeled `/root` I left as the default option.
@@ -402,11 +402,11 @@ Used when researching how to use CSS flexbox for responsiveness.
 ### YouTube
 Free online resources used to research different real-life applications of CSS flexbox.
 
-### Coode Institute
-Project created in line with course content, walkthrough project and and within project 1 scope.
+### Code Institute
+Project created in line with course content, walkthrough project and within project 1 scope.
 
 ### AmIResponsive.com
-Used to check responsiveness of the website
+Used to check responsiveness of the website.
 
 
 ## Acknowledgements
